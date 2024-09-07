@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "blackstorm", "id": 230}, "date": "2024-08-30T17:18:10.920400+00:00", "type": "correct", "challenge_id": 22, "challenge": {"name": "Sanity Check", "value": 50, "id": 22, "category": "misc"}, "team": {"name": "Cyber_  Defense", "id": 111}, "id": 280}], "meta": {"count": 1}}

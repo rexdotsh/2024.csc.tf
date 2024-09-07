@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "forrof", "id": 2655}, "date": "2024-08-31T09:29:36.992818+00:00", "type": "correct", "challenge_id": 43, "challenge": {"name": "Geometry Dash 2.1", "value": 50, "id": 43, "category": "forensics"}, "team": {"name": "MatavieHash", "id": 279}, "id": 8000}], "meta": {"count": 1}}

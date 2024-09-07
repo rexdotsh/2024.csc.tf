@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "bbrr", "id": 2538}, "date": "2024-08-31T12:44:46.849419+00:00", "type": "correct", "challenge_id": 60, "challenge": {"name": "Memory", "value": 379, "id": 60, "category": "forensics"}, "team": {"name": "pr3dicamons", "id": 295}, "id": 8870}], "meta": {"count": 1}}

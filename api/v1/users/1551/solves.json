@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "omer", "id": 1551}, "date": "2024-08-31T10:08:56.651762+00:00", "type": "correct", "challenge_id": 37, "challenge": {"name": "key", "value": 50, "id": 37, "category": "beginner"}, "team": {"name": "Pixel Perfect", "id": 378}, "id": 8170}], "meta": {"count": 1}}

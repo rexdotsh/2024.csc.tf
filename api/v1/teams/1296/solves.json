@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "c0t0d0s2", "id": 2567}, "date": "2024-08-31T13:43:15.940458+00:00", "type": "correct", "challenge_id": 70, "challenge": {"name": "Pretty Malicious Log", "value": 442, "id": 70, "category": "forensics"}, "team": {"name": "Astr1d", "id": 1296}, "id": 9240}], "meta": {"count": 1}}

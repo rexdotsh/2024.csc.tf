@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "hank0438", "id": 2482}, "date": "2024-08-31T08:16:34.522727+00:00", "type": "correct", "challenge_id": 49, "challenge": {"name": "Byte Modification Service", "value": 286, "id": 49, "category": "pwn"}, "team": {"name": "Team Kirby", "id": 140}, "id": 7611}], "meta": {"count": 1}}

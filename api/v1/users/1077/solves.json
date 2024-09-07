@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "knight", "id": 1077}, "date": "2024-09-01T09:48:14.852617+00:00", "type": "correct", "challenge_id": 76, "challenge": {"name": "Feedback", "value": 1, "id": 76, "category": "misc"}, "team": {"name": "automat0n", "id": 482}, "id": 12078}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "caljorb", "id": 2408}, "date": "2024-09-01T02:51:46.505617+00:00", "type": "correct", "challenge_id": 42, "challenge": {"name": "Social Distancing", "value": 50, "id": 42, "category": "forensics"}, "team": {"name": "GT Hackermen", "id": 915}, "id": 11373}], "meta": {"count": 1}}

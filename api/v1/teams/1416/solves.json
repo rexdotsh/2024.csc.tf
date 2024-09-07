@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "silen", "id": 2772}, "date": "2024-09-01T07:47:32.197547+00:00", "type": "correct", "challenge_id": 51, "challenge": {"name": "ticket-bot-v2", "value": 328, "id": 51, "category": "pwn"}, "team": {"name": "buhuile", "id": 1416}, "id": 11874}], "meta": {"count": 1}}

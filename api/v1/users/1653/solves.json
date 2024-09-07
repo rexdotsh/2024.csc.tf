@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "pou", "id": 1653}, "date": "2024-08-31T11:31:12.666535+00:00", "type": "correct", "challenge_id": 15, "challenge": {"name": "snake", "value": 50, "id": 15, "category": "rev"}, "team": {"name": "NCA@Nepal", "id": 124}, "id": 8521}], "meta": {"count": 1}}

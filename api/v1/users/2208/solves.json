@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "fet", "id": 2208}, "date": "2024-08-31T04:18:32.321309+00:00", "type": "correct", "challenge_id": 45, "challenge": {"name": "3D Obj", "value": 212, "id": 45, "category": "forensics"}, "team": {"name": "ecxinc", "id": 361}, "id": 6382}], "meta": {"count": 1}}

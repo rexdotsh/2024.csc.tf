@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "fidesvita", "id": 2370}, "date": "2024-08-31T17:50:15.192175+00:00", "type": "correct", "challenge_id": 49, "challenge": {"name": "Byte Modification Service", "value": 286, "id": 49, "category": "pwn"}, "team": {"name": "late_arrival", "id": 1179}, "id": 10318}], "meta": {"count": 1}}

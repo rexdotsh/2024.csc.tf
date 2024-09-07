@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "chelunike", "id": 1394}, "date": "2024-08-30T17:38:33.639586+00:00", "type": "correct", "challenge_id": 22, "challenge": {"name": "Sanity Check", "value": 50, "id": 22, "category": "misc"}, "team": {"name": "Hackiit", "id": 728}, "id": 916}], "meta": {"count": 1}}

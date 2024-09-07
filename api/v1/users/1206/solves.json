@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "Sighpher", "id": 1206}, "date": "2024-08-30T19:43:28.997433+00:00", "type": "correct", "challenge_id": 43, "challenge": {"name": "Geometry Dash 2.1", "value": 50, "id": 43, "category": "forensics"}, "team": {"name": "Kira", "id": 628}, "id": 3342}], "meta": {"count": 1}}

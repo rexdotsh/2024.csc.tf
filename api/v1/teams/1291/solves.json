@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "pethomsen", "id": 2559}, "date": "2024-08-31T06:45:30.733557+00:00", "type": "correct", "challenge_id": 22, "challenge": {"name": "Sanity Check", "value": 50, "id": 22, "category": "misc"}, "team": {"name": "Pouls Friends", "id": 1291}, "id": 7104}], "meta": {"count": 1}}

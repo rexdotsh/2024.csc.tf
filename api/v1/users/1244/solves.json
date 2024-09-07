@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "qno", "id": 1244}, "date": "2024-08-31T07:59:00.013579+00:00", "type": "correct", "challenge_id": 42, "challenge": {"name": "Social Distancing", "value": 50, "id": 42, "category": "forensics"}, "team": {"name": "0x325", "id": 650}, "id": 7518}], "meta": {"count": 1}}

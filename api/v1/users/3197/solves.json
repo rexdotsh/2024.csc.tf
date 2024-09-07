@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "HackCTFs", "id": 3197}, "date": "2024-09-01T13:23:36.054483+00:00", "type": "correct", "challenge_id": 41, "challenge": {"name": "Baby Pybash", "value": 50, "id": 41, "category": "beginner"}, "team": {"name": "H7Tex", "id": 1637}, "id": 12492}], "meta": {"count": 1}}

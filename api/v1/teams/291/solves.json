@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "adicodin", "id": 606}, "date": "2024-08-31T05:04:45.139304+00:00", "type": "correct", "challenge_id": 22, "challenge": {"name": "Sanity Check", "value": 50, "id": 22, "category": "misc"}, "team": {"name": "acube", "id": 291}, "id": 6580}], "meta": {"count": 1}}

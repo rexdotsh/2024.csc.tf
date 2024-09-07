@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "fs", "id": 1317}, "date": "2024-08-31T02:50:30.271169+00:00", "type": "correct", "challenge_id": 35, "challenge": {"name": "shelltester", "value": 94, "id": 35, "category": "beginner"}, "team": {"name": "SSM", "id": 92}, "id": 5957}], "meta": {"count": 1}}

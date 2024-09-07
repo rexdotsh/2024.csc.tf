@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "t0werz", "id": 894}, "date": "2024-08-31T01:51:44.495645+00:00", "type": "correct", "challenge_id": 22, "challenge": {"name": "Sanity Check", "value": 50, "id": 22, "category": "misc"}, "team": {"name": "CesBot", "id": 453}, "id": 5671}], "meta": {"count": 1}}

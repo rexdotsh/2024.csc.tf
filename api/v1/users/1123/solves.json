@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "giorgospro", "id": 1123}, "date": "2024-08-30T17:36:02.711847+00:00", "type": "correct", "challenge_id": 22, "challenge": {"name": "Sanity Check", "value": 50, "id": 22, "category": "misc"}, "team": {"name": "CYberMouflons", "id": 901}, "id": 800}], "meta": {"count": 1}}

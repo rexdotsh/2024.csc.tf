@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "pingpwn", "id": 1137}, "date": "2024-09-01T15:13:20.769936+00:00", "type": "correct", "challenge_id": 15, "challenge": {"name": "snake", "value": 50, "id": 15, "category": "rev"}, "team": {"name": "ECSCGreekCommunity", "id": 445}, "id": 12740}], "meta": {"count": 1}}

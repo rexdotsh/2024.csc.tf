@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "aashir", "id": 1714}, "date": "2024-08-31T11:35:52.002827+00:00", "type": "correct", "challenge_id": 34, "challenge": {"name": "encryptor", "value": 50, "id": 34, "category": "beginner"}, "team": {"name": "Cyberians", "id": 28}, "id": 8539}], "meta": {"count": 1}}

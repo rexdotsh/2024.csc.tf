@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "bex fan club", "id": 1847}, "date": "2024-08-30T20:04:47.489536+00:00", "type": "correct", "challenge_id": 53, "challenge": {"name": "silent-rop-v2", "value": 442, "id": 53, "category": "pwn"}, "team": {"name": "Bex Fan Club", "id": 925}, "id": 3539}], "meta": {"count": 1}}

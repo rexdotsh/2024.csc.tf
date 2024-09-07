@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "kanon", "id": 1998}, "date": "2024-08-30T19:23:19.379401+00:00", "type": "correct", "challenge_id": 25, "challenge": {"name": "super-fnv", "value": 481, "id": 25, "category": "crypto"}, "team": {"name": "kanon", "id": 1000}, "id": 3127}], "meta": {"count": 1}}

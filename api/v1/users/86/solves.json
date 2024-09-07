@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "Hatim", "id": 86}, "date": "2024-08-31T18:03:16.203310+00:00", "type": "correct", "challenge_id": 37, "challenge": {"name": "key", "value": 50, "id": 37, "category": "beginner"}, "team": {"name": "nonbinary", "id": 39}, "id": 10345}], "meta": {"count": 1}}

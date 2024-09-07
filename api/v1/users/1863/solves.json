@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "0hexor", "id": 1863}, "date": "2024-08-31T12:18:41.742269+00:00", "type": "correct", "challenge_id": 22, "challenge": {"name": "Sanity Check", "value": 50, "id": 22, "category": "misc"}, "team": {"name": "ShadowGarden", "id": 1274}, "id": 8762}], "meta": {"count": 1}}

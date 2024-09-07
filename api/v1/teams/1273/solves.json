@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "overdose", "id": 252}, "date": "2024-09-01T03:15:52.811375+00:00", "type": "correct", "challenge_id": 15, "challenge": {"name": "snake", "value": 50, "id": 15, "category": "rev"}, "team": {"name": "revNoob", "id": 1273}, "id": 11388}], "meta": {"count": 1}}

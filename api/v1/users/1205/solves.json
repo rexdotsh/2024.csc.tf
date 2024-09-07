@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "beongeist", "id": 1205}, "date": "2024-09-01T15:30:24.772850+00:00", "type": "correct", "challenge_id": 34, "challenge": {"name": "encryptor", "value": 50, "id": 34, "category": "beginner"}, "team": {"name": "GT Hackermen", "id": 915}, "id": 12786}], "meta": {"count": 1}}

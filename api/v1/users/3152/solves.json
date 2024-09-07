@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "112233", "id": 3152}, "date": "2024-09-01T14:19:45.980654+00:00", "type": "correct", "challenge_id": 39, "challenge": {"name": "ZipZone", "value": 50, "id": 39, "category": "beginner"}, "team": {"name": "12345zzz", "id": 1646}, "id": 12588}], "meta": {"count": 1}}

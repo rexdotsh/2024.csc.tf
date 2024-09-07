@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "stanzz", "id": 2693}, "date": "2024-08-31T10:41:53.229898+00:00", "type": "correct", "challenge_id": 14, "challenge": {"name": "login", "value": 383, "id": 14, "category": "rev"}, "team": {"name": "GoN", "id": 381}, "id": 8357}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "null_byte", "id": 349}, "date": "2024-08-30T19:31:01.522114+00:00", "type": "correct", "challenge_id": 46, "challenge": {"name": "Feature Unlocked", "value": 50, "id": 46, "category": "web"}, "team": {"name": "MindCrafters", "id": 169}, "id": 3227}], "meta": {"count": 1}}

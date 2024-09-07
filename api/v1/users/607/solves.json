@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "QBit", "id": 607}, "date": "2024-08-30T17:31:25.149830+00:00", "type": "correct", "challenge_id": 22, "challenge": {"name": "Sanity Check", "value": 50, "id": 22, "category": "misc"}, "team": {"name": "Cheen Tapak Dum Dum", "id": 20}, "id": 656}], "meta": {"count": 1}}

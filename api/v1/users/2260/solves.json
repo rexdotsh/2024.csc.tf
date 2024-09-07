@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "cat1", "id": 2260}, "date": "2024-08-31T12:31:28.240014+00:00", "type": "correct", "challenge_id": 46, "challenge": {"name": "Feature Unlocked", "value": 50, "id": 46, "category": "web"}, "team": {"name": "cat1", "id": 1125}, "id": 8820}], "meta": {"count": 1}}

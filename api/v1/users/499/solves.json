@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "Rockstar", "id": 499}, "date": "2024-09-01T07:53:27.057117+00:00", "type": "correct", "challenge_id": 76, "challenge": {"name": "Feedback", "value": 1, "id": 76, "category": "misc"}, "team": {"name": "Null Bytes", "id": 239}, "id": 11894}], "meta": {"count": 1}}

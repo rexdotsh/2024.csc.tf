@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "sh7", "id": 2122}, "date": "2024-08-30T19:26:36.890180+00:00", "type": "correct", "challenge_id": 44, "challenge": {"name": "bad packets", "value": 442, "id": 44, "category": "forensics"}, "team": {"name": "Phreaks 2600", "id": 1054}, "id": 3164}], "meta": {"count": 1}}

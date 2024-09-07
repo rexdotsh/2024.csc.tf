@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "emperor", "id": 1012}, "date": "2024-08-31T04:03:32.715476+00:00", "type": "correct", "challenge_id": 15, "challenge": {"name": "snake", "value": 50, "id": 15, "category": "rev"}, "team": {"name": "H4x0r_Hunters", "id": 222}, "id": 6326}], "meta": {"count": 1}}

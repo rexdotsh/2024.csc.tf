@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "Odiosus", "id": 3045}, "date": "2024-09-01T09:34:30.006771+00:00", "type": "correct", "challenge_id": 37, "challenge": {"name": "key", "value": 50, "id": 37, "category": "beginner"}, "team": {"name": "./potato", "id": 1578}, "id": 12056}], "meta": {"count": 1}}

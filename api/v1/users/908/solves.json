@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "Sandevistan_user", "id": 908}, "date": "2024-08-31T14:16:58.480049+00:00", "type": "correct", "challenge_id": 34, "challenge": {"name": "encryptor", "value": 50, "id": 34, "category": "beginner"}, "team": {"name": "infinite_void", "id": 461}, "id": 9419}], "meta": {"count": 1}}

@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "littleEndian", "id": 2211}, "date": "2024-08-30T20:12:54.422343+00:00", "type": "correct", "challenge_id": 22, "challenge": {"name": "Sanity Check", "value": 50, "id": 22, "category": "misc"}, "team": {"name": "The Symphony", "id": 1100}, "id": 3649}], "meta": {"count": 1}}

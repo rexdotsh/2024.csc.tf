@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "sudoangelo", "id": 1674}, "date": "2024-08-30T18:45:06.082439+00:00", "type": "correct", "challenge_id": 34, "challenge": {"name": "encryptor", "value": 50, "id": 34, "category": "beginner"}, "team": {"name": "FPUSEC", "id": 863}, "id": 2541}], "meta": {"count": 1}}

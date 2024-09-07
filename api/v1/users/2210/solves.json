@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "BBugg3r", "id": 2210}, "date": "2024-08-30T21:18:15.592676+00:00", "type": "correct", "challenge_id": 41, "challenge": {"name": "Baby Pybash", "value": 50, "id": 41, "category": "beginner"}, "team": {"name": "ByteBandits", "id": 687}, "id": 4275}], "meta": {"count": 1}}

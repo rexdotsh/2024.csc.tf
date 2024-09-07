@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "h0gw4rt5", "id": 2083}, "date": "2024-09-01T14:23:38.005550+00:00", "type": "correct", "challenge_id": 36, "challenge": {"name": "cipher block clock", "value": 50, "id": 36, "category": "beginner"}, "team": {"name": "IIT(BHU)CyberSec", "id": 724}, "id": 12593}], "meta": {"count": 1}}

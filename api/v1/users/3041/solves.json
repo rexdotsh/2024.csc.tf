@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "dapa", "id": 3041}, "date": "2024-09-01T15:21:46.695068+00:00", "type": "correct", "challenge_id": 51, "challenge": {"name": "ticket-bot-v2", "value": 328, "id": 51, "category": "pwn"}, "team": {"name": "MalevolentShrine", "id": 1575}, "id": 12754}], "meta": {"count": 1}}

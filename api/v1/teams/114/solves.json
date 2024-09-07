@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "EasyIce", "id": 234}, "date": "2024-08-30T17:36:04.593293+00:00", "type": "correct", "challenge_id": 22, "challenge": {"name": "Sanity Check", "value": 50, "id": 22, "category": "misc"}, "team": {"name": "EasyIce", "id": 114}, "id": 804}], "meta": {"count": 1}}

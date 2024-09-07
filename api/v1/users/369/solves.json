@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "pingu", "id": 369}, "date": "2024-08-30T18:53:38.965354+00:00", "type": "correct", "challenge_id": 37, "challenge": {"name": "key", "value": 50, "id": 37, "category": "beginner"}, "team": {"name": "NullSec", "id": 87}, "id": 2708}], "meta": {"count": 1}}

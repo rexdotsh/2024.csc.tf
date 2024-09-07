@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "crabsnk", "id": 2113}, "date": "2024-08-31T20:37:01.770276+00:00", "type": "correct", "challenge_id": 63, "challenge": {"name": "shelltester-v2", "value": 397, "id": 63, "category": "pwn"}, "team": {"name": "Cryptonite", "id": 524}, "id": 10748}], "meta": {"count": 1}}

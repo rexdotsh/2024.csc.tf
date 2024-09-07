@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "Eli", "id": 2701}, "date": "2024-08-31T10:43:05.094582+00:00", "type": "correct", "challenge_id": 26, "challenge": {"name": "flagprinter", "value": 50, "id": 26, "category": "crypto"}, "team": {"name": "CamelRiders", "id": 632}, "id": 8359}], "meta": {"count": 1}}

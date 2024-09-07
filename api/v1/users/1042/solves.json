@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "Tim bo", "id": 1042}, "date": "2024-08-31T09:43:20.312737+00:00", "type": "correct", "challenge_id": 37, "challenge": {"name": "key", "value": 50, "id": 37, "category": "beginner"}, "team": {"name": "Heap Invaders", "id": 535}, "id": 8071}], "meta": {"count": 1}}

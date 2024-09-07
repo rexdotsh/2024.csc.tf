@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "USTC-Nebula", "id": 1253}, "date": "2024-09-01T06:42:36.816918+00:00", "type": "correct", "challenge_id": 22, "challenge": {"name": "Sanity Check", "value": 50, "id": 22, "category": "misc"}, "team": {"name": "USTC-NEBULA", "id": 656}, "id": 11768}], "meta": {"count": 1}}

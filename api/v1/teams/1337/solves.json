@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "tsui", "id": 2649}, "date": "2024-08-31T09:35:09.817406+00:00", "type": "correct", "challenge_id": 46, "challenge": {"name": "Feature Unlocked", "value": 50, "id": 46, "category": "web"}, "team": {"name": "sadweeb", "id": 1337}, "id": 8037}], "meta": {"count": 1}}

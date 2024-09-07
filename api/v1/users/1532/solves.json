@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "CTFentity", "id": 1532}, "date": "2024-08-31T06:47:02.721353+00:00", "type": "correct", "challenge_id": 22, "challenge": {"name": "Sanity Check", "value": 50, "id": 22, "category": "misc"}, "team": {"name": "Conficker", "id": 802}, "id": 7111}], "meta": {"count": 1}}

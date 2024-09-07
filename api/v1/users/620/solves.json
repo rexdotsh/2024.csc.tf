@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "Ivars", "id": 620}, "date": "2024-08-30T21:16:27.882908+00:00", "type": "correct", "challenge_id": 36, "challenge": {"name": "cipher block clock", "value": 50, "id": 36, "category": "beginner"}, "team": {"name": "pr3dicamons", "id": 295}, "id": 4261}], "meta": {"count": 1}}

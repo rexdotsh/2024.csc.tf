@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "Hellboy", "id": 2181}, "date": "2024-09-01T01:27:45.121711+00:00", "type": "correct", "challenge_id": 46, "challenge": {"name": "Feature Unlocked", "value": 50, "id": 46, "category": "web"}, "team": {"name": "Monk3y Security", "id": 1047}, "id": 11257}], "meta": {"count": 1}}

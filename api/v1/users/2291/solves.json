@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "suspect", "id": 2291}, "date": "2024-08-30T23:50:03.396286+00:00", "type": "correct", "challenge_id": 55, "challenge": {"name": "ezcoppersmith", "value": 50, "id": 55, "category": "crypto"}, "team": {"name": "suspect", "id": 1139}, "id": 5170}], "meta": {"count": 1}}

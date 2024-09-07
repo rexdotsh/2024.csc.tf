@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "Raza", "id": 2110}, "date": "2024-08-31T16:05:12.265023+00:00", "type": "correct", "challenge_id": 15, "challenge": {"name": "snake", "value": 50, "id": 15, "category": "rev"}, "team": {"name": "Goodwill Mischief", "id": 1027}, "id": 9905}], "meta": {"count": 1}}

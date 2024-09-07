@@ -1,0 +1,1 @@
+{"success": true, "data": [{"user": {"name": "Swizzer", "id": 3157}, "date": "2024-09-01T11:39:11.444967+00:00", "type": "correct", "challenge_id": 40, "challenge": {"name": "Modulus RSA", "value": 50, "id": 40, "category": "beginner"}, "team": {"name": "Del0n1x", "id": 1509}, "id": 12277}], "meta": {"count": 1}}
