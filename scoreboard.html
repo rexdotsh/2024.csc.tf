@@ -118,19 +118,9 @@
       </div>
     </div>
 
-    <div id="scoreboard" class="row" x-data="ScoreboardList">
-      <template x-if="brackets.length && standings.length">
-        <div class="col-md-12 py-3">
-          <nav class="nav nav-pills nav-fill">
-            <button :class="{'nav-link': true, 'active': !activeBracket}" @click="activeBracket=null">All</button>
-            <template x-for="bracket in brackets">
-              <button :class="{'nav-link': true, 'active': activeBracket == bracket.id}" x-text="bracket.name" @click="activeBracket=bracket.id"></button>
-            </template>
-          </nav>
-        </div>
-      </template>
+    <div id="scoreboard" class="row">
 
-      <div class="col-md-12" x-show="standings.length">
+      <div class="col-md-12">
         <table class="table table-striped">
           <thead>
           <tr>
@@ -140,26 +130,4990 @@
           </tr>
           </thead>
 
-          <tbody>
-            <template x-for="(standing, index) in standings.filter(i => activeBracket ? i.bracket_id==activeBracket : true)">
-              <tr>
-                <th scope="row" class="text-center" x-text="index + 1"></th>
+          <tr>
+                <th scope="row" class="text-center">1</th>
                 <td>
-                  <a :href="standing.account_url" x-text="standing.name"></a>
-                  <template x-if="standing.bracket_name">
-                    <span class="badge bg-secondary ms-2" x-text="standing.bracket_name"></span>
-                  </template>
-                </td>
-                <td x-text="standing.score"></td>
+                  <a href="/teams/166">no rev/pwn no life</a>
+                                  </td>
+                <td>16518</td>
+              </tr><tr>
+                <th scope="row" class="text-center">2</th>
+                <td>
+                  <a href="/teams/517">KCSC</a>
+                                  </td>
+                <td>15453</td>
+              </tr><tr>
+                <th scope="row" class="text-center">3</th>
+                <td>
+                  <a href="/teams/757">TRX</a>
+                                  </td>
+                <td>15187</td>
+              </tr><tr>
+                <th scope="row" class="text-center">4</th>
+                <td>
+                  <a href="/teams/567">welovepython&lt;3</a>
+                                  </td>
+                <td>14983</td>
+              </tr><tr>
+                <th scope="row" class="text-center">5</th>
+                <td>
+                  <a href="/teams/714">epic merger</a>
+                                  </td>
+                <td>14963</td>
+              </tr><tr>
+                <th scope="row" class="text-center">6</th>
+                <td>
+                  <a href="/teams/756">CoSGang</a>
+                                  </td>
+                <td>12501</td>
+              </tr><tr>
+                <th scope="row" class="text-center">7</th>
+                <td>
+                  <a href="/teams/689">Maple Bacon</a>
+                                  </td>
+                <td>11149</td>
+              </tr><tr>
+                <th scope="row" class="text-center">8</th>
+                <td>
+                  <a href="/teams/659">b01lers</a>
+                                  </td>
+                <td>9743</td>
+              </tr><tr>
+                <th scope="row" class="text-center">9</th>
+                <td>
+                  <a href="/teams/191">World Wide Flags</a>
+                                  </td>
+                <td>9691</td>
+              </tr><tr>
+                <th scope="row" class="text-center">10</th>
+                <td>
+                  <a href="/teams/365">UofTCTF</a>
+                                  </td>
+                <td>9473</td>
+              </tr><tr>
+                <th scope="row" class="text-center">11</th>
+                <td>
+                  <a href="/teams/731">jejupork</a>
+                                  </td>
+                <td>9296</td>
+              </tr><tr>
+                <th scope="row" class="text-center">12</th>
+                <td>
+                  <a href="/teams/719">0xL4ugh - Free Palestine</a>
+                                  </td>
+                <td>8635</td>
+              </tr><tr>
+                <th scope="row" class="text-center">13</th>
+                <td>
+                  <a href="/teams/771">SleepyHollow</a>
+                                  </td>
+                <td>8580</td>
+              </tr><tr>
+                <th scope="row" class="text-center">14</th>
+                <td>
+                  <a href="/teams/1008">PPP_</a>
+                                  </td>
+                <td>8414</td>
+              </tr><tr>
+                <th scope="row" class="text-center">15</th>
+                <td>
+                  <a href="/teams/348">ssi</a>
+                                  </td>
+                <td>7766</td>
+              </tr><tr>
+                <th scope="row" class="text-center">16</th>
+                <td>
+                  <a href="/teams/791">FirebrUwUh</a>
+                                  </td>
+                <td>7764</td>
+              </tr><tr>
+                <th scope="row" class="text-center">17</th>
+                <td>
+                  <a href="/teams/594">pwn college enjoyers</a>
+                                  </td>
+                <td>7625</td>
+              </tr><tr>
+                <th scope="row" class="text-center">18</th>
+                <td>
+                  <a href="/teams/860">catcatgo</a>
+                                  </td>
+                <td>6684</td>
+              </tr><tr>
+                <th scope="row" class="text-center">19</th>
+                <td>
+                  <a href="/teams/1243">ISITDTU</a>
+                                  </td>
+                <td>6033</td>
+              </tr><tr>
+                <th scope="row" class="text-center">20</th>
+                <td>
+                  <a href="/teams/123">&gt; r0/dev/null</a>
+                                  </td>
+                <td>5999</td>
+              </tr><tr>
+                <th scope="row" class="text-center">21</th>
+                <td>
+                  <a href="/teams/169">MindCrafters</a>
+                                  </td>
+                <td>5963</td>
+              </tr><tr>
+                <th scope="row" class="text-center">22</th>
+                <td>
+                  <a href="/teams/587">Payatu Bandits</a>
+                                  </td>
+                <td>5668</td>
+              </tr><tr>
+                <th scope="row" class="text-center">23</th>
+                <td>
+                  <a href="/teams/1210">サイスティック</a>
+                                  </td>
+                <td>5615</td>
+              </tr><tr>
+                <th scope="row" class="text-center">24</th>
+                <td>
+                  <a href="/teams/929">C4RR07</a>
+                                  </td>
+                <td>5256</td>
+              </tr><tr>
+                <th scope="row" class="text-center">25</th>
+                <td>
+                  <a href="/teams/540">rpwn</a>
+                                  </td>
+                <td>5184</td>
+              </tr><tr>
+                <th scope="row" class="text-center">26</th>
+                <td>
+                  <a href="/teams/437">ECSCTeamGreece</a>
+                                  </td>
+                <td>5113</td>
+              </tr><tr>
+                <th scope="row" class="text-center">27</th>
+                <td>
+                  <a href="/teams/891">1nf1n1ty</a>
+                                  </td>
+                <td>4873</td>
+              </tr><tr>
+                <th scope="row" class="text-center">28</th>
+                <td>
+                  <a href="/teams/1140">Iku-toppene</a>
+                                  </td>
+                <td>4718</td>
+              </tr><tr>
+                <th scope="row" class="text-center">29</th>
+                <td>
+                  <a href="/teams/806">indus</a>
+                                  </td>
+                <td>4625</td>
+              </tr><tr>
+                <th scope="row" class="text-center">30</th>
+                <td>
+                  <a href="/teams/1149">Megaricano</a>
+                                  </td>
+                <td>4518</td>
+              </tr><tr>
+                <th scope="row" class="text-center">31</th>
+                <td>
+                  <a href="/teams/889">Aqua Cat</a>
+                                  </td>
+                <td>4508</td>
+              </tr><tr>
+                <th scope="row" class="text-center">32</th>
+                <td>
+                  <a href="/teams/724">IIT(BHU)CyberSec</a>
+                                  </td>
+                <td>4258</td>
+              </tr><tr>
+                <th scope="row" class="text-center">33</th>
+                <td>
+                  <a href="/teams/429">InfoSecIITR</a>
+                                  </td>
+                <td>4187</td>
+              </tr><tr>
+                <th scope="row" class="text-center">34</th>
+                <td>
+                  <a href="/teams/113">0rd3rs</a>
+                                  </td>
+                <td>4143</td>
+              </tr><tr>
+                <th scope="row" class="text-center">35</th>
+                <td>
+                  <a href="/teams/573">Hack@Sec</a>
+                                  </td>
+                <td>4110</td>
+              </tr><tr>
+                <th scope="row" class="text-center">36</th>
+                <td>
+                  <a href="/teams/970">mode13h</a>
+                                  </td>
+                <td>4022</td>
+              </tr><tr>
+                <th scope="row" class="text-center">37</th>
+                <td>
+                  <a href="/teams/1091">rrr</a>
+                                  </td>
+                <td>4013</td>
+              </tr><tr>
+                <th scope="row" class="text-center">38</th>
+                <td>
+                  <a href="/teams/965">steveisacunt</a>
+                                  </td>
+                <td>4008</td>
+              </tr><tr>
+                <th scope="row" class="text-center">39</th>
+                <td>
+                  <a href="/teams/129">0xfun</a>
+                                  </td>
+                <td>3969</td>
+              </tr><tr>
+                <th scope="row" class="text-center">40</th>
+                <td>
+                  <a href="/teams/1209">les amateurs</a>
+                                  </td>
+                <td>3796</td>
+              </tr><tr>
+                <th scope="row" class="text-center">41</th>
+                <td>
+                  <a href="/teams/717">ADMinions</a>
+                                  </td>
+                <td>3779</td>
+              </tr><tr>
+                <th scope="row" class="text-center">42</th>
+                <td>
+                  <a href="/teams/308">RHT</a>
+                                  </td>
+                <td>3613</td>
+              </tr><tr>
+                <th scope="row" class="text-center">43</th>
+                <td>
+                  <a href="/teams/381">GoN</a>
+                                  </td>
+                <td>3444</td>
+              </tr><tr>
+                <th scope="row" class="text-center">44</th>
+                <td>
+                  <a href="/teams/7">rubiyalab</a>
+                                  </td>
+                <td>3278</td>
+              </tr><tr>
+                <th scope="row" class="text-center">45</th>
+                <td>
+                  <a href="/teams/1377">FlagMotori</a>
+                                  </td>
+                <td>3275</td>
+              </tr><tr>
+                <th scope="row" class="text-center">46</th>
+                <td>
+                  <a href="/teams/42">C4ptur3Th3Fr0g</a>
+                                  </td>
+                <td>3270</td>
+              </tr><tr>
+                <th scope="row" class="text-center">47</th>
+                <td>
+                  <a href="/teams/1428">cyberlandsholdet</a>
+                                  </td>
+                <td>3237</td>
+              </tr><tr>
+                <th scope="row" class="text-center">48</th>
+                <td>
+                  <a href="/teams/589">NorskeNokkelsnikere</a>
+                                  </td>
+                <td>3188</td>
+              </tr><tr>
+                <th scope="row" class="text-center">49</th>
+                <td>
+                  <a href="/teams/29">RE:UN10N</a>
+                                  </td>
+                <td>3141</td>
+              </tr><tr>
+                <th scope="row" class="text-center">50</th>
+                <td>
+                  <a href="/teams/777">m1nt4l1ty</a>
+                                  </td>
+                <td>3011</td>
+              </tr><tr>
+                <th scope="row" class="text-center">51</th>
+                <td>
+                  <a href="/teams/146">DOo</a>
+                                  </td>
+                <td>2976</td>
+              </tr><tr>
+                <th scope="row" class="text-center">52</th>
+                <td>
+                  <a href="/teams/726">포넚블</a>
+                                  </td>
+                <td>2862</td>
+              </tr><tr>
+                <th scope="row" class="text-center">53</th>
+                <td>
+                  <a href="/teams/673">EICS1</a>
+                                  </td>
+                <td>2841</td>
+              </tr><tr>
+                <th scope="row" class="text-center">54</th>
+                <td>
+                  <a href="/teams/1194">Cr4zy7hurs</a>
+                                  </td>
+                <td>2803</td>
+              </tr><tr>
+                <th scope="row" class="text-center">55</th>
+                <td>
+                  <a href="/teams/107">Archiv3</a>
+                                  </td>
+                <td>2778</td>
+              </tr><tr>
+                <th scope="row" class="text-center">56</th>
+                <td>
+                  <a href="/teams/824">Mini-Venom</a>
+                                  </td>
+                <td>2769</td>
+              </tr><tr>
+                <th scope="row" class="text-center">57</th>
+                <td>
+                  <a href="/teams/1354">泥巴睡觉</a>
+                                  </td>
+                <td>2660</td>
+              </tr><tr>
+                <th scope="row" class="text-center">58</th>
+                <td>
+                  <a href="/teams/300">M53</a>
+                                  </td>
+                <td>2602</td>
+              </tr><tr>
+                <th scope="row" class="text-center">59</th>
+                <td>
+                  <a href="/teams/982">c0nrad</a>
+                                  </td>
+                <td>2596</td>
+              </tr><tr>
+                <th scope="row" class="text-center">60</th>
+                <td>
+                  <a href="/teams/764">Elite.sa</a>
+                                  </td>
+                <td>2561</td>
+              </tr><tr>
+                <th scope="row" class="text-center">61</th>
+                <td>
+                  <a href="/teams/635">Cyber Salmons</a>
+                                  </td>
+                <td>2555</td>
+              </tr><tr>
+                <th scope="row" class="text-center">62</th>
+                <td>
+                  <a href="/teams/611">s1gn4|s_0f_Ay3y4rw4|&gt;|&gt;y</a>
+                                  </td>
+                <td>2509</td>
+              </tr><tr>
+                <th scope="row" class="text-center">63</th>
+                <td>
+                  <a href="/teams/17">Knightsec</a>
+                                  </td>
+                <td>2472</td>
+              </tr><tr>
+                <th scope="row" class="text-center">64</th>
+                <td>
+                  <a href="/teams/1022">tester44</a>
+                                  </td>
+                <td>2400</td>
+              </tr><tr>
+                <th scope="row" class="text-center">65</th>
+                <td>
+                  <a href="/teams/743">TommyTheCat</a>
+                                  </td>
+                <td>2387</td>
+              </tr><tr>
+                <th scope="row" class="text-center">66</th>
+                <td>
+                  <a href="/teams/1208">Wade</a>
+                                  </td>
+                <td>2345</td>
+              </tr><tr>
+                <th scope="row" class="text-center">67</th>
+                <td>
+                  <a href="/teams/913">exec</a>
+                                  </td>
+                <td>2313</td>
+              </tr><tr>
+                <th scope="row" class="text-center">68</th>
+                <td>
+                  <a href="/teams/281">ObjectiveSeal</a>
+                                  </td>
+                <td>2312</td>
+              </tr><tr>
+                <th scope="row" class="text-center">69</th>
+                <td>
+                  <a href="/teams/480">Hellbound</a>
+                                  </td>
+                <td>2308</td>
+              </tr><tr>
+                <th scope="row" class="text-center">70</th>
+                <td>
+                  <a href="/teams/185">thefwncrew</a>
+                                  </td>
+                <td>2271</td>
+              </tr><tr>
+                <th scope="row" class="text-center">71</th>
+                <td>
+                  <a href="/teams/613">🌵</a>
+                                  </td>
+                <td>2270</td>
+              </tr><tr>
+                <th scope="row" class="text-center">72</th>
+                <td>
+                  <a href="/teams/173">The Fable</a>
+                                  </td>
+                <td>2244</td>
+              </tr><tr>
+                <th scope="row" class="text-center">73</th>
+                <td>
+                  <a href="/teams/347">Doraemon Majuu Presentasi</a>
+                                  </td>
+                <td>2232</td>
+              </tr><tr>
+                <th scope="row" class="text-center">74</th>
+                <td>
+                  <a href="/teams/911">3r0th3r CC</a>
+                                  </td>
+                <td>2210</td>
+              </tr><tr>
+                <th scope="row" class="text-center">75</th>
+                <td>
+                  <a href="/teams/374">P3gasus</a>
+                                  </td>
+                <td>2203</td>
+              </tr><tr>
+                <th scope="row" class="text-center">76</th>
+                <td>
+                  <a href="/teams/139">N.O.X.U.S</a>
+                                  </td>
+                <td>2180</td>
+              </tr><tr>
+                <th scope="row" class="text-center">77</th>
+                <td>
+                  <a href="/teams/881">pwnlentoni</a>
+                                  </td>
+                <td>2123</td>
+              </tr><tr>
+                <th scope="row" class="text-center">78</th>
+                <td>
+                  <a href="/teams/728">Hackiit</a>
+                                  </td>
+                <td>2122</td>
+              </tr><tr>
+                <th scope="row" class="text-center">79</th>
+                <td>
+                  <a href="/teams/1072">MotherIndiaPower</a>
+                                  </td>
+                <td>2092</td>
+              </tr><tr>
+                <th scope="row" class="text-center">80</th>
+                <td>
+                  <a href="/teams/295">pr3dicamons</a>
+                                  </td>
+                <td>2090</td>
+              </tr><tr>
+                <th scope="row" class="text-center">81</th>
+                <td>
+                  <a href="/teams/1344">j</a>
+                                  </td>
+                <td>2086</td>
+              </tr><tr>
+                <th scope="row" class="text-center">82</th>
+                <td>
+                  <a href="/teams/805">JordanSec</a>
+                                  </td>
+                <td>2076</td>
+              </tr><tr>
+                <th scope="row" class="text-center">83</th>
+                <td>
+                  <a href="/teams/390">ByteTheCookies</a>
+                                  </td>
+                <td>2032</td>
+              </tr><tr>
+                <th scope="row" class="text-center">84</th>
+                <td>
+                  <a href="/teams/524">Cryptonite</a>
+                                  </td>
+                <td>1994</td>
+              </tr><tr>
+                <th scope="row" class="text-center">85</th>
+                <td>
+                  <a href="/teams/664">JSoyke</a>
+                                  </td>
+                <td>1982</td>
+              </tr><tr>
+                <th scope="row" class="text-center">86</th>
+                <td>
+                  <a href="/teams/880">AFRICC~</a>
+                                  </td>
+                <td>1959</td>
+              </tr><tr>
+                <th scope="row" class="text-center">87</th>
+                <td>
+                  <a href="/teams/226">Chunghwa_Pack</a>
+                                  </td>
+                <td>1940</td>
+              </tr><tr>
+                <th scope="row" class="text-center">88</th>
+                <td>
+                  <a href="/teams/955">NiGhtMaRe</a>
+                                  </td>
+                <td>1937</td>
+              </tr><tr>
+                <th scope="row" class="text-center">89</th>
+                <td>
+                  <a href="/teams/1069">blupper</a>
+                                  </td>
+                <td>1936</td>
+              </tr><tr>
+                <th scope="row" class="text-center">90</th>
+                <td>
+                  <a href="/teams/582">Raong2</a>
+                                  </td>
+                <td>1924</td>
+              </tr><tr>
+                <th scope="row" class="text-center">91</th>
+                <td>
+                  <a href="/teams/934">GetFlagsOrDieTrying</a>
+                                  </td>
+                <td>1886</td>
+              </tr><tr>
+                <th scope="row" class="text-center">92</th>
+                <td>
+                  <a href="/teams/753">TeamC8</a>
+                                  </td>
+                <td>1886</td>
+              </tr><tr>
+                <th scope="row" class="text-center">93</th>
+                <td>
+                  <a href="/teams/115">b1G_xitiboiz</a>
+                                  </td>
+                <td>1875</td>
+              </tr><tr>
+                <th scope="row" class="text-center">94</th>
+                <td>
+                  <a href="/teams/45">OwlS3c</a>
+                                  </td>
+                <td>1857</td>
+              </tr><tr>
+                <th scope="row" class="text-center">95</th>
+                <td>
+                  <a href="/teams/1474">FPTU EThical Hackers Club</a>
+                                  </td>
+                <td>1849</td>
+              </tr><tr>
+                <th scope="row" class="text-center">96</th>
+                <td>
+                  <a href="/teams/542">TAS.Dihydro_Monoxide</a>
+                                  </td>
+                <td>1841</td>
+              </tr><tr>
+                <th scope="row" class="text-center">97</th>
+                <td>
+                  <a href="/teams/600">Zafk1el</a>
+                                  </td>
+                <td>1786</td>
+              </tr><tr>
+                <th scope="row" class="text-center">98</th>
+                <td>
+                  <a href="/teams/918">doliv</a>
+                                  </td>
+                <td>1681</td>
+              </tr><tr>
+                <th scope="row" class="text-center">99</th>
+                <td>
+                  <a href="/teams/849">ozflare</a>
+                                  </td>
+                <td>1679</td>
+              </tr><tr>
+                <th scope="row" class="text-center">100</th>
+                <td>
+                  <a href="/teams/248">c-bass</a>
+                                  </td>
+                <td>1678</td>
+              </tr><tr>
+                <th scope="row" class="text-center">101</th>
+                <td>
+                  <a href="/teams/959">Paolo</a>
+                                  </td>
+                <td>1661</td>
+              </tr><tr>
+                <th scope="row" class="text-center">102</th>
+                <td>
+                  <a href="/teams/923">kewkxx</a>
+                                  </td>
+                <td>1593</td>
+              </tr><tr>
+                <th scope="row" class="text-center">103</th>
+                <td>
+                  <a href="/teams/361">ecxinc</a>
+                                  </td>
+                <td>1578</td>
+              </tr><tr>
+                <th scope="row" class="text-center">104</th>
+                <td>
+                  <a href="/teams/831">./Vespiary</a>
+                                  </td>
+                <td>1532</td>
+              </tr><tr>
+                <th scope="row" class="text-center">105</th>
+                <td>
+                  <a href="/teams/377">CyberCh1ck</a>
+                                  </td>
+                <td>1509</td>
+              </tr><tr>
+                <th scope="row" class="text-center">106</th>
+                <td>
+                  <a href="/teams/590">Phish Paprikas</a>
+                                  </td>
+                <td>1497</td>
+              </tr><tr>
+                <th scope="row" class="text-center">107</th>
+                <td>
+                  <a href="/teams/986">bingus</a>
+                                  </td>
+                <td>1487</td>
+              </tr><tr>
+                <th scope="row" class="text-center">108</th>
+                <td>
+                  <a href="/teams/1070">Twilight Light</a>
+                                  </td>
+                <td>1476</td>
+              </tr><tr>
+                <th scope="row" class="text-center">109</th>
+                <td>
+                  <a href="/teams/912">team125465</a>
+                                  </td>
+                <td>1453</td>
+              </tr><tr>
+                <th scope="row" class="text-center">110</th>
+                <td>
+                  <a href="/teams/1134">MyMoon's Paradise</a>
+                                  </td>
+                <td>1452</td>
+              </tr><tr>
+                <th scope="row" class="text-center">111</th>
+                <td>
+                  <a href="/teams/1198">Crystals</a>
+                                  </td>
+                <td>1440</td>
+              </tr><tr>
+                <th scope="row" class="text-center">112</th>
+                <td>
+                  <a href="/teams/878">ortazorluktaydi</a>
+                                  </td>
+                <td>1416</td>
+              </tr><tr>
+                <th scope="row" class="text-center">113</th>
+                <td>
+                  <a href="/teams/1060">n00bz</a>
+                                  </td>
+                <td>1407</td>
+              </tr><tr>
+                <th scope="row" class="text-center">114</th>
+                <td>
+                  <a href="/teams/616">f4n_n3r0</a>
+                                  </td>
+                <td>1393</td>
+              </tr><tr>
+                <th scope="row" class="text-center">115</th>
+                <td>
+                  <a href="/teams/1195">m0nk3y_1n_tc1vs</a>
+                                  </td>
+                <td>1347</td>
+              </tr><tr>
+                <th scope="row" class="text-center">116</th>
+                <td>
+                  <a href="/teams/866">m0rd0r</a>
+                                  </td>
+                <td>1311</td>
+              </tr><tr>
+                <th scope="row" class="text-center">117</th>
+                <td>
+                  <a href="/teams/1167">newname</a>
+                                  </td>
+                <td>1282</td>
+              </tr><tr>
+                <th scope="row" class="text-center">118</th>
+                <td>
+                  <a href="/teams/155">Neutral.B</a>
+                                  </td>
+                <td>1269</td>
+              </tr><tr>
+                <th scope="row" class="text-center">119</th>
+                <td>
+                  <a href="/teams/423">mu5k3733r5</a>
+                                  </td>
+                <td>1248</td>
+              </tr><tr>
+                <th scope="row" class="text-center">120</th>
+                <td>
+                  <a href="/teams/927">M0NST3RDECK</a>
+                                  </td>
+                <td>1229</td>
+              </tr><tr>
+                <th scope="row" class="text-center">121</th>
+                <td>
+                  <a href="/teams/788">CyberCellVIIT</a>
+                                  </td>
+                <td>1215</td>
+              </tr><tr>
+                <th scope="row" class="text-center">122</th>
+                <td>
+                  <a href="/teams/449">clueless872</a>
+                                  </td>
+                <td>1201</td>
+              </tr><tr>
+                <th scope="row" class="text-center">123</th>
+                <td>
+                  <a href="/teams/1459">SYPER</a>
+                                  </td>
+                <td>1200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">124</th>
+                <td>
+                  <a href="/teams/220">Bandit</a>
+                                  </td>
+                <td>1199</td>
+              </tr><tr>
+                <th scope="row" class="text-center">125</th>
+                <td>
+                  <a href="/teams/124">NCA@Nepal</a>
+                                  </td>
+                <td>1199</td>
+              </tr><tr>
+                <th scope="row" class="text-center">126</th>
+                <td>
+                  <a href="/teams/887">hiiii</a>
+                                  </td>
+                <td>1193</td>
+              </tr><tr>
+                <th scope="row" class="text-center">127</th>
+                <td>
+                  <a href="/teams/1047">Monk3y Security</a>
+                                  </td>
+                <td>1154</td>
+              </tr><tr>
+                <th scope="row" class="text-center">128</th>
+                <td>
+                  <a href="/teams/846">dcua</a>
+                                  </td>
+                <td>1154</td>
+              </tr><tr>
+                <th scope="row" class="text-center">129</th>
+                <td>
+                  <a href="/teams/1129">ScriptSorcerers</a>
+                                  </td>
+                <td>1153</td>
+              </tr><tr>
+                <th scope="row" class="text-center">130</th>
+                <td>
+                  <a href="/teams/362">pbchocolate</a>
+                                  </td>
+                <td>1146</td>
+              </tr><tr>
+                <th scope="row" class="text-center">131</th>
+                <td>
+                  <a href="/teams/431">GRIS</a>
+                                  </td>
+                <td>1130</td>
+              </tr><tr>
+                <th scope="row" class="text-center">132</th>
+                <td>
+                  <a href="/teams/378">Pixel Perfect</a>
+                                  </td>
+                <td>1122</td>
+              </tr><tr>
+                <th scope="row" class="text-center">133</th>
+                <td>
+                  <a href="/teams/1540">AirOverflow</a>
+                                  </td>
+                <td>1101</td>
+              </tr><tr>
+                <th scope="row" class="text-center">134</th>
+                <td>
+                  <a href="/teams/608">datasnok</a>
+                                  </td>
+                <td>1100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">135</th>
+                <td>
+                  <a href="/teams/601">PFS</a>
+                                  </td>
+                <td>1099</td>
+              </tr><tr>
+                <th scope="row" class="text-center">136</th>
+                <td>
+                  <a href="/teams/1106">Tower of Hanoi</a>
+                                  </td>
+                <td>1086</td>
+              </tr><tr>
+                <th scope="row" class="text-center">137</th>
+                <td>
+                  <a href="/teams/460">CPCSEC</a>
+                                  </td>
+                <td>1068</td>
+              </tr><tr>
+                <th scope="row" class="text-center">138</th>
+                <td>
+                  <a href="/teams/985">Untitled CTF Game</a>
+                                  </td>
+                <td>1067</td>
+              </tr><tr>
+                <th scope="row" class="text-center">139</th>
+                <td>
+                  <a href="/teams/649">PankiHoi</a>
+                                  </td>
+                <td>1059</td>
+              </tr><tr>
+                <th scope="row" class="text-center">140</th>
+                <td>
+                  <a href="/teams/1275">ErR0r101</a>
+                                  </td>
+                <td>1029</td>
+              </tr><tr>
+                <th scope="row" class="text-center">141</th>
+                <td>
+                  <a href="/teams/1054">Phreaks 2600</a>
+                                  </td>
+                <td>1017</td>
+              </tr><tr>
+                <th scope="row" class="text-center">142</th>
+                <td>
+                  <a href="/teams/1610">KentangRenyah</a>
+                                  </td>
+                <td>1011</td>
+              </tr><tr>
+                <th scope="row" class="text-center">143</th>
+                <td>
+                  <a href="/teams/1176">stone</a>
+                                  </td>
+                <td>1009</td>
+              </tr><tr>
+                <th scope="row" class="text-center">144</th>
+                <td>
+                  <a href="/teams/919">UAC</a>
+                                  </td>
+                <td>1002</td>
+              </tr><tr>
+                <th scope="row" class="text-center">145</th>
+                <td>
+                  <a href="/teams/869">logdav</a>
+                                  </td>
+                <td>1000</td>
+              </tr><tr>
+                <th scope="row" class="text-center">146</th>
+                <td>
+                  <a href="/teams/1058">balchal</a>
+                                  </td>
+                <td>999</td>
+              </tr><tr>
+                <th scope="row" class="text-center">147</th>
+                <td>
+                  <a href="/teams/1262">rwandi</a>
+                                  </td>
+                <td>998</td>
+              </tr><tr>
+                <th scope="row" class="text-center">148</th>
+                <td>
+                  <a href="/teams/1027">Goodwill Mischief</a>
+                                  </td>
+                <td>987</td>
+              </tr><tr>
+                <th scope="row" class="text-center">149</th>
+                <td>
+                  <a href="/teams/948">pokiiTS</a>
+                                  </td>
+                <td>981</td>
+              </tr><tr>
+                <th scope="row" class="text-center">150</th>
+                <td>
+                  <a href="/teams/1451">alm</a>
+                                  </td>
+                <td>975</td>
+              </tr><tr>
+                <th scope="row" class="text-center">151</th>
+                <td>
+                  <a href="/teams/667">Bugs B0unt3r</a>
+                                  </td>
+                <td>972</td>
+              </tr><tr>
+                <th scope="row" class="text-center">152</th>
+                <td>
+                  <a href="/teams/425">acdwas</a>
+                                  </td>
+                <td>934</td>
+              </tr><tr>
+                <th scope="row" class="text-center">153</th>
+                <td>
+                  <a href="/teams/942">CyberMesh</a>
+                                  </td>
+                <td>933</td>
+              </tr><tr>
+                <th scope="row" class="text-center">154</th>
+                <td>
+                  <a href="/teams/1109">rzaba</a>
+                                  </td>
+                <td>918</td>
+              </tr><tr>
+                <th scope="row" class="text-center">155</th>
+                <td>
+                  <a href="/teams/125">@Param{}</a>
+                                  </td>
+                <td>908</td>
+              </tr><tr>
+                <th scope="row" class="text-center">156</th>
+                <td>
+                  <a href="/teams/973">Literati</a>
+                                  </td>
+                <td>904</td>
+              </tr><tr>
+                <th scope="row" class="text-center">157</th>
+                <td>
+                  <a href="/teams/632">CamelRiders</a>
+                                  </td>
+                <td>891</td>
+              </tr><tr>
+                <th scope="row" class="text-center">158</th>
+                <td>
+                  <a href="/teams/1075">thesolos</a>
+                                  </td>
+                <td>854</td>
+              </tr><tr>
+                <th scope="row" class="text-center">159</th>
+                <td>
+                  <a href="/teams/496">c00c00r00c00</a>
+                                  </td>
+                <td>852</td>
+              </tr><tr>
+                <th scope="row" class="text-center">160</th>
+                <td>
+                  <a href="/teams/663">Toasters</a>
+                                  </td>
+                <td>836</td>
+              </tr><tr>
+                <th scope="row" class="text-center">161</th>
+                <td>
+                  <a href="/teams/92">SSM</a>
+                                  </td>
+                <td>828</td>
+              </tr><tr>
+                <th scope="row" class="text-center">162</th>
+                <td>
+                  <a href="/teams/893">MoaiMan</a>
+                                  </td>
+                <td>818</td>
+              </tr><tr>
+                <th scope="row" class="text-center">163</th>
+                <td>
+                  <a href="/teams/813">StrgD</a>
+                                  </td>
+                <td>816</td>
+              </tr><tr>
+                <th scope="row" class="text-center">164</th>
+                <td>
+                  <a href="/teams/1024">AAUniqorns</a>
+                                  </td>
+                <td>808</td>
+              </tr><tr>
+                <th scope="row" class="text-center">165</th>
+                <td>
+                  <a href="/teams/367">ihopethisischangeable</a>
+                                  </td>
+                <td>799</td>
+              </tr><tr>
+                <th scope="row" class="text-center">166</th>
+                <td>
+                  <a href="/teams/586">Kukko ja Paalit</a>
+                                  </td>
+                <td>793</td>
+              </tr><tr>
+                <th scope="row" class="text-center">167</th>
+                <td>
+                  <a href="/teams/140">Team Kirby</a>
+                                  </td>
+                <td>786</td>
+              </tr><tr>
+                <th scope="row" class="text-center">168</th>
+                <td>
+                  <a href="/teams/1111">:R4inB0w:</a>
+                                  </td>
+                <td>779</td>
+              </tr><tr>
+                <th scope="row" class="text-center">169</th>
+                <td>
+                  <a href="/teams/1119">S3NTINELS</a>
+                                  </td>
+                <td>779</td>
+              </tr><tr>
+                <th scope="row" class="text-center">170</th>
+                <td>
+                  <a href="/teams/901">CYberMouflons</a>
+                                  </td>
+                <td>775</td>
+              </tr><tr>
+                <th scope="row" class="text-center">171</th>
+                <td>
+                  <a href="/teams/1462">c94d4c15adf0e243bd35200287d35714</a>
+                                  </td>
+                <td>771</td>
+              </tr><tr>
+                <th scope="row" class="text-center">172</th>
+                <td>
+                  <a href="/teams/1323">k</a>
+                                  </td>
+                <td>770</td>
+              </tr><tr>
+                <th scope="row" class="text-center">173</th>
+                <td>
+                  <a href="/teams/1017">TeamMuramasa</a>
+                                  </td>
+                <td>769</td>
+              </tr><tr>
+                <th scope="row" class="text-center">174</th>
+                <td>
+                  <a href="/teams/445">ECSCGreekCommunity</a>
+                                  </td>
+                <td>762</td>
+              </tr><tr>
+                <th scope="row" class="text-center">175</th>
+                <td>
+                  <a href="/teams/285">عاهات البعث</a>
+                                  </td>
+                <td>762</td>
+              </tr><tr>
+                <th scope="row" class="text-center">176</th>
+                <td>
+                  <a href="/teams/1520">adafg</a>
+                                  </td>
+                <td>749</td>
+              </tr><tr>
+                <th scope="row" class="text-center">177</th>
+                <td>
+                  <a href="/teams/900">adespawn</a>
+                                  </td>
+                <td>719</td>
+              </tr><tr>
+                <th scope="row" class="text-center">178</th>
+                <td>
+                  <a href="/teams/535">Heap Invaders</a>
+                                  </td>
+                <td>719</td>
+              </tr><tr>
+                <th scope="row" class="text-center">179</th>
+                <td>
+                  <a href="/teams/1067">n0l3ptr</a>
+                                  </td>
+                <td>712</td>
+              </tr><tr>
+                <th scope="row" class="text-center">180</th>
+                <td>
+                  <a href="/teams/1536">NoCLB</a>
+                                  </td>
+                <td>694</td>
+              </tr><tr>
+                <th scope="row" class="text-center">181</th>
+                <td>
+                  <a href="/teams/1276">cet6</a>
+                                  </td>
+                <td>683</td>
+              </tr><tr>
+                <th scope="row" class="text-center">182</th>
+                <td>
+                  <a href="/teams/738">as1ws</a>
+                                  </td>
+                <td>678</td>
+              </tr><tr>
+                <th scope="row" class="text-center">183</th>
+                <td>
+                  <a href="/teams/895">16567adigashreesh@gmail.com</a>
+                                  </td>
+                <td>669</td>
+              </tr><tr>
+                <th scope="row" class="text-center">184</th>
+                <td>
+                  <a href="/teams/793">ri5e</a>
+                                  </td>
+                <td>668</td>
+              </tr><tr>
+                <th scope="row" class="text-center">185</th>
+                <td>
+                  <a href="/teams/991">Ananas-Seegurke</a>
+                                  </td>
+                <td>664</td>
+              </tr><tr>
+                <th scope="row" class="text-center">186</th>
+                <td>
+                  <a href="/teams/548">stitch</a>
+                                  </td>
+                <td>663</td>
+              </tr><tr>
+                <th scope="row" class="text-center">187</th>
+                <td>
+                  <a href="/teams/237">Meowing4life</a>
+                                  </td>
+                <td>663</td>
+              </tr><tr>
+                <th scope="row" class="text-center">188</th>
+                <td>
+                  <a href="/teams/494">Alwaylose1234</a>
+                                  </td>
+                <td>662</td>
+              </tr><tr>
+                <th scope="row" class="text-center">189</th>
+                <td>
+                  <a href="/teams/975">iCarlyHackerClub</a>
+                                  </td>
+                <td>656</td>
+              </tr><tr>
+                <th scope="row" class="text-center">190</th>
+                <td>
+                  <a href="/teams/647">Zukane</a>
+                                  </td>
+                <td>651</td>
+              </tr><tr>
+                <th scope="row" class="text-center">191</th>
+                <td>
+                  <a href="/teams/302">bluehens</a>
+                                  </td>
+                <td>650</td>
+              </tr><tr>
+                <th scope="row" class="text-center">192</th>
+                <td>
+                  <a href="/teams/832">organizers</a>
+                                  </td>
+                <td>650</td>
+              </tr><tr>
+                <th scope="row" class="text-center">193</th>
+                <td>
+                  <a href="/teams/935">soloo</a>
+                                  </td>
+                <td>649</td>
+              </tr><tr>
+                <th scope="row" class="text-center">194</th>
+                <td>
+                  <a href="/teams/1049">AfrikasLeastWanted</a>
+                                  </td>
+                <td>633</td>
+              </tr><tr>
+                <th scope="row" class="text-center">195</th>
+                <td>
+                  <a href="/teams/27">Navi</a>
+                                  </td>
+                <td>630</td>
+              </tr><tr>
+                <th scope="row" class="text-center">196</th>
+                <td>
+                  <a href="/teams/1117">scriptohio</a>
+                                  </td>
+                <td>625</td>
+              </tr><tr>
+                <th scope="row" class="text-center">197</th>
+                <td>
+                  <a href="/teams/933">RaphaeL</a>
+                                  </td>
+                <td>620</td>
+              </tr><tr>
+                <th scope="row" class="text-center">198</th>
+                <td>
+                  <a href="/teams/811">3v1l</a>
+                                  </td>
+                <td>620</td>
+              </tr><tr>
+                <th scope="row" class="text-center">199</th>
+                <td>
+                  <a href="/teams/201">rajat_vats</a>
+                                  </td>
+                <td>620</td>
+              </tr><tr>
+                <th scope="row" class="text-center">200</th>
+                <td>
+                  <a href="/teams/597">ODU</a>
+                                  </td>
+                <td>617</td>
+              </tr><tr>
+                <th scope="row" class="text-center">201</th>
+                <td>
+                  <a href="/teams/1535">N30Z30N</a>
+                                  </td>
+                <td>617</td>
+              </tr><tr>
+                <th scope="row" class="text-center">202</th>
+                <td>
+                  <a href="/teams/916">krauq</a>
+                                  </td>
+                <td>612</td>
+              </tr><tr>
+                <th scope="row" class="text-center">203</th>
+                <td>
+                  <a href="/teams/732">CyberShark</a>
+                                  </td>
+                <td>609</td>
+              </tr><tr>
+                <th scope="row" class="text-center">204</th>
+                <td>
+                  <a href="/teams/467">0n3_pu4ch_</a>
+                                  </td>
+                <td>595</td>
+              </tr><tr>
+                <th scope="row" class="text-center">205</th>
+                <td>
+                  <a href="/teams/936">Evil Corp.</a>
+                                  </td>
+                <td>594</td>
+              </tr><tr>
+                <th scope="row" class="text-center">206</th>
+                <td>
+                  <a href="/teams/1389">Xatha</a>
+                                  </td>
+                <td>594</td>
+              </tr><tr>
+                <th scope="row" class="text-center">207</th>
+                <td>
+                  <a href="/teams/1163">adfae</a>
+                                  </td>
+                <td>592</td>
+              </tr><tr>
+                <th scope="row" class="text-center">208</th>
+                <td>
+                  <a href="/teams/1326">TPC</a>
+                                  </td>
+                <td>581</td>
+              </tr><tr>
+                <th scope="row" class="text-center">209</th>
+                <td>
+                  <a href="/teams/593">Ch1lL</a>
+                                  </td>
+                <td>575</td>
+              </tr><tr>
+                <th scope="row" class="text-center">210</th>
+                <td>
+                  <a href="/teams/154">Gryffindor</a>
+                                  </td>
+                <td>569</td>
+              </tr><tr>
+                <th scope="row" class="text-center">211</th>
+                <td>
+                  <a href="/teams/786">Vilgax</a>
+                                  </td>
+                <td>569</td>
+              </tr><tr>
+                <th scope="row" class="text-center">212</th>
+                <td>
+                  <a href="/teams/767">STC-NCHU</a>
+                                  </td>
+                <td>562</td>
+              </tr><tr>
+                <th scope="row" class="text-center">213</th>
+                <td>
+                  <a href="/teams/197">L0rd</a>
+                                  </td>
+                <td>550</td>
+              </tr><tr>
+                <th scope="row" class="text-center">214</th>
+                <td>
+                  <a href="/teams/25">i</a>
+                                  </td>
+                <td>550</td>
+              </tr><tr>
+                <th scope="row" class="text-center">215</th>
+                <td>
+                  <a href="/teams/1088">Caliphal Hounds</a>
+                                  </td>
+                <td>545</td>
+              </tr><tr>
+                <th scope="row" class="text-center">216</th>
+                <td>
+                  <a href="/teams/961">JustLookingAround</a>
+                                  </td>
+                <td>536</td>
+              </tr><tr>
+                <th scope="row" class="text-center">217</th>
+                <td>
+                  <a href="/teams/1093">CrémeTartinéFabuleuse</a>
+                                  </td>
+                <td>534</td>
+              </tr><tr>
+                <th scope="row" class="text-center">218</th>
+                <td>
+                  <a href="/teams/135">du?_tri`nh_ko?</a>
+                                  </td>
+                <td>516</td>
+              </tr><tr>
+                <th scope="row" class="text-center">219</th>
+                <td>
+                  <a href="/teams/1244">S0lv3d_8y_Luck</a>
+                                  </td>
+                <td>516</td>
+              </tr><tr>
+                <th scope="row" class="text-center">220</th>
+                <td>
+                  <a href="/teams/448">Quantum</a>
+                                  </td>
+                <td>512</td>
+              </tr><tr>
+                <th scope="row" class="text-center">221</th>
+                <td>
+                  <a href="/teams/277">kingbombi</a>
+                                  </td>
+                <td>500</td>
+              </tr><tr>
+                <th scope="row" class="text-center">222</th>
+                <td>
+                  <a href="/teams/472">0bug</a>
+                                  </td>
+                <td>500</td>
+              </tr><tr>
+                <th scope="row" class="text-center">223</th>
+                <td>
+                  <a href="/teams/1689">stob</a>
+                                  </td>
+                <td>499</td>
+              </tr><tr>
+                <th scope="row" class="text-center">224</th>
+                <td>
+                  <a href="/teams/179">OP_EN</a>
+                                  </td>
+                <td>494</td>
+              </tr><tr>
+                <th scope="row" class="text-center">225</th>
+                <td>
+                  <a href="/teams/400">Wh1teR00m</a>
+                                  </td>
+                <td>487</td>
+              </tr><tr>
+                <th scope="row" class="text-center">226</th>
+                <td>
+                  <a href="/teams/1452">oui</a>
+                                  </td>
+                <td>483</td>
+              </tr><tr>
+                <th scope="row" class="text-center">227</th>
+                <td>
+                  <a href="/teams/1000">kanon</a>
+                                  </td>
+                <td>481</td>
+              </tr><tr>
+                <th scope="row" class="text-center">228</th>
+                <td>
+                  <a href="/teams/168">Void Vanguards</a>
+                                  </td>
+                <td>480</td>
+              </tr><tr>
+                <th scope="row" class="text-center">229</th>
+                <td>
+                  <a href="/teams/296">Bl4ckF0g</a>
+                                  </td>
+                <td>479</td>
+              </tr><tr>
+                <th scope="row" class="text-center">230</th>
+                <td>
+                  <a href="/teams/352">Divide by Zero Exceptionals</a>
+                                  </td>
+                <td>470</td>
+              </tr><tr>
+                <th scope="row" class="text-center">231</th>
+                <td>
+                  <a href="/teams/1617">dragon</a>
+                                  </td>
+                <td>467</td>
+              </tr><tr>
+                <th scope="row" class="text-center">232</th>
+                <td>
+                  <a href="/teams/48">Hex</a>
+                                  </td>
+                <td>462</td>
+              </tr><tr>
+                <th scope="row" class="text-center">233</th>
+                <td>
+                  <a href="/teams/68">Davidpb</a>
+                                  </td>
+                <td>462</td>
+              </tr><tr>
+                <th scope="row" class="text-center">234</th>
+                <td>
+                  <a href="/teams/446">lazy bums</a>
+                                  </td>
+                <td>451</td>
+              </tr><tr>
+                <th scope="row" class="text-center">235</th>
+                <td>
+                  <a href="/teams/261">Liminova</a>
+                                  </td>
+                <td>451</td>
+              </tr><tr>
+                <th scope="row" class="text-center">236</th>
+                <td>
+                  <a href="/teams/544">noraneco</a>
+                                  </td>
+                <td>450</td>
+              </tr><tr>
+                <th scope="row" class="text-center">237</th>
+                <td>
+                  <a href="/teams/77">akasec</a>
+                                  </td>
+                <td>444</td>
+              </tr><tr>
+                <th scope="row" class="text-center">238</th>
+                <td>
+                  <a href="/teams/925">Bex Fan Club</a>
+                                  </td>
+                <td>442</td>
+              </tr><tr>
+                <th scope="row" class="text-center">239</th>
+                <td>
+                  <a href="/teams/1296">Astr1d</a>
+                                  </td>
+                <td>442</td>
+              </tr><tr>
+                <th scope="row" class="text-center">240</th>
+                <td>
+                  <a href="/teams/861">exploiitm</a>
+                                  </td>
+                <td>436</td>
+              </tr><tr>
+                <th scope="row" class="text-center">241</th>
+                <td>
+                  <a href="/teams/1654">melones</a>
+                                  </td>
+                <td>433</td>
+              </tr><tr>
+                <th scope="row" class="text-center">242</th>
+                <td>
+                  <a href="/teams/143">freakyamogus</a>
+                                  </td>
+                <td>426</td>
+              </tr><tr>
+                <th scope="row" class="text-center">243</th>
+                <td>
+                  <a href="/teams/765">WindTeam</a>
+                                  </td>
+                <td>425</td>
+              </tr><tr>
+                <th scope="row" class="text-center">244</th>
+                <td>
+                  <a href="/teams/1360">n0n</a>
+                                  </td>
+                <td>416</td>
+              </tr><tr>
+                <th scope="row" class="text-center">245</th>
+                <td>
+                  <a href="/teams/687">ByteBandits</a>
+                                  </td>
+                <td>401</td>
+              </tr><tr>
+                <th scope="row" class="text-center">246</th>
+                <td>
+                  <a href="/teams/598">dirtyhacker</a>
+                                  </td>
+                <td>401</td>
+              </tr><tr>
+                <th scope="row" class="text-center">247</th>
+                <td>
+                  <a href="/teams/638">Бульбака</a>
+                                  </td>
+                <td>401</td>
+              </tr><tr>
+                <th scope="row" class="text-center">248</th>
+                <td>
+                  <a href="/teams/688">[H@ck3r.dro7]</a>
+                                  </td>
+                <td>401</td>
+              </tr><tr>
+                <th scope="row" class="text-center">249</th>
+                <td>
+                  <a href="/teams/152">fy</a>
+                                  </td>
+                <td>401</td>
+              </tr><tr>
+                <th scope="row" class="text-center">250</th>
+                <td>
+                  <a href="/teams/819">NTU MasterChefs</a>
+                                  </td>
+                <td>400</td>
+              </tr><tr>
+                <th scope="row" class="text-center">251</th>
+                <td>
+                  <a href="/teams/74">Qu4nt1x</a>
+                                  </td>
+                <td>400</td>
+              </tr><tr>
+                <th scope="row" class="text-center">252</th>
+                <td>
+                  <a href="/teams/1066">denwilly</a>
+                                  </td>
+                <td>400</td>
+              </tr><tr>
+                <th scope="row" class="text-center">253</th>
+                <td>
+                  <a href="/teams/599">E2IC3</a>
+                                  </td>
+                <td>400</td>
+              </tr><tr>
+                <th scope="row" class="text-center">254</th>
+                <td>
+                  <a href="/teams/70">Cle3r_4LL</a>
+                                  </td>
+                <td>394</td>
+              </tr><tr>
+                <th scope="row" class="text-center">255</th>
+                <td>
+                  <a href="/teams/131">TheGoldenHammer</a>
+                                  </td>
+                <td>386</td>
+              </tr><tr>
+                <th scope="row" class="text-center">256</th>
+                <td>
+                  <a href="/teams/182">sogang</a>
+                                  </td>
+                <td>386</td>
+              </tr><tr>
+                <th scope="row" class="text-center">257</th>
+                <td>
+                  <a href="/teams/313">53414b</a>
+                                  </td>
+                <td>375</td>
+              </tr><tr>
+                <th scope="row" class="text-center">258</th>
+                <td>
+                  <a href="/teams/794">IkerSec</a>
+                                  </td>
+                <td>375</td>
+              </tr><tr>
+                <th scope="row" class="text-center">259</th>
+                <td>
+                  <a href="/teams/1122">flr</a>
+                                  </td>
+                <td>366</td>
+              </tr><tr>
+                <th scope="row" class="text-center">260</th>
+                <td>
+                  <a href="/teams/574">Siuuuuuuu</a>
+                                  </td>
+                <td>362</td>
+              </tr><tr>
+                <th scope="row" class="text-center">261</th>
+                <td>
+                  <a href="/teams/164">OutLawZ</a>
+                                  </td>
+                <td>351</td>
+              </tr><tr>
+                <th scope="row" class="text-center">262</th>
+                <td>
+                  <a href="/teams/879">WhatIsThis</a>
+                                  </td>
+                <td>351</td>
+              </tr><tr>
+                <th scope="row" class="text-center">263</th>
+                <td>
+                  <a href="/teams/176">bup11f</a>
+                                  </td>
+                <td>351</td>
+              </tr><tr>
+                <th scope="row" class="text-center">264</th>
+                <td>
+                  <a href="/teams/43">Khichri</a>
+                                  </td>
+                <td>351</td>
+              </tr><tr>
+                <th scope="row" class="text-center">265</th>
+                <td>
+                  <a href="/teams/289">Team Parrot</a>
+                                  </td>
+                <td>351</td>
+              </tr><tr>
+                <th scope="row" class="text-center">266</th>
+                <td>
+                  <a href="/teams/834">konohagakure</a>
+                                  </td>
+                <td>351</td>
+              </tr><tr>
+                <th scope="row" class="text-center">267</th>
+                <td>
+                  <a href="/teams/981">Fidethus</a>
+                                  </td>
+                <td>350</td>
+              </tr><tr>
+                <th scope="row" class="text-center">268</th>
+                <td>
+                  <a href="/teams/455">PolyCyber</a>
+                                  </td>
+                <td>350</td>
+              </tr><tr>
+                <th scope="row" class="text-center">269</th>
+                <td>
+                  <a href="/teams/479">CSEC</a>
+                                  </td>
+                <td>350</td>
+              </tr><tr>
+                <th scope="row" class="text-center">270</th>
+                <td>
+                  <a href="/teams/492">kururu000</a>
+                                  </td>
+                <td>350</td>
+              </tr><tr>
+                <th scope="row" class="text-center">271</th>
+                <td>
+                  <a href="/teams/1203">bm</a>
+                                  </td>
+                <td>350</td>
+              </tr><tr>
+                <th scope="row" class="text-center">272</th>
+                <td>
+                  <a href="/teams/71">Solo Leveling</a>
+                                  </td>
+                <td>350</td>
+              </tr><tr>
+                <th scope="row" class="text-center">273</th>
+                <td>
+                  <a href="/teams/1531">S0FTS3C</a>
+                                  </td>
+                <td>350</td>
+              </tr><tr>
+                <th scope="row" class="text-center">274</th>
+                <td>
+                  <a href="/teams/1399">Meowtopia</a>
+                                  </td>
+                <td>350</td>
+              </tr><tr>
+                <th scope="row" class="text-center">275</th>
+                <td>
+                  <a href="/teams/839">somayi2021</a>
+                                  </td>
+                <td>350</td>
+              </tr><tr>
+                <th scope="row" class="text-center">276</th>
+                <td>
+                  <a href="/teams/1202">Marketting Team</a>
+                                  </td>
+                <td>350</td>
+              </tr><tr>
+                <th scope="row" class="text-center">277</th>
+                <td>
+                  <a href="/teams/186">Aw4k3n</a>
+                                  </td>
+                <td>345</td>
+              </tr><tr>
+                <th scope="row" class="text-center">278</th>
+                <td>
+                  <a href="/teams/1247">0x61</a>
+                                  </td>
+                <td>344</td>
+              </tr><tr>
+                <th scope="row" class="text-center">279</th>
+                <td>
+                  <a href="/teams/864">bunniesGang</a>
+                                  </td>
+                <td>344</td>
+              </tr><tr>
+                <th scope="row" class="text-center">280</th>
+                <td>
+                  <a href="/teams/175">$pa$$m!tFlaGg3n</a>
+                                  </td>
+                <td>344</td>
+              </tr><tr>
+                <th scope="row" class="text-center">281</th>
+                <td>
+                  <a href="/teams/1043">pwner</a>
+                                  </td>
+                <td>344</td>
+              </tr><tr>
+                <th scope="row" class="text-center">282</th>
+                <td>
+                  <a href="/teams/922">wacon2024</a>
+                                  </td>
+                <td>336</td>
+              </tr><tr>
+                <th scope="row" class="text-center">283</th>
+                <td>
+                  <a href="/teams/1416">buhuile</a>
+                                  </td>
+                <td>328</td>
+              </tr><tr>
+                <th scope="row" class="text-center">284</th>
+                <td>
+                  <a href="/teams/1575">MalevolentShrine</a>
+                                  </td>
+                <td>328</td>
+              </tr><tr>
+                <th scope="row" class="text-center">285</th>
+                <td>
+                  <a href="/teams/366">WeAre</a>
+                                  </td>
+                <td>316</td>
+              </tr><tr>
+                <th scope="row" class="text-center">286</th>
+                <td>
+                  <a href="/teams/748">v4lerich</a>
+                                  </td>
+                <td>312</td>
+              </tr><tr>
+                <th scope="row" class="text-center">287</th>
+                <td>
+                  <a href="/teams/387">GGDOTCOM</a>
+                                  </td>
+                <td>301</td>
+              </tr><tr>
+                <th scope="row" class="text-center">288</th>
+                <td>
+                  <a href="/teams/476">JxJ</a>
+                                  </td>
+                <td>301</td>
+              </tr><tr>
+                <th scope="row" class="text-center">289</th>
+                <td>
+                  <a href="/teams/696">dombusters</a>
+                                  </td>
+                <td>301</td>
+              </tr><tr>
+                <th scope="row" class="text-center">290</th>
+                <td>
+                  <a href="/teams/785">MNIK</a>
+                                  </td>
+                <td>301</td>
+              </tr><tr>
+                <th scope="row" class="text-center">291</th>
+                <td>
+                  <a href="/teams/236">doYouWannaKnow</a>
+                                  </td>
+                <td>301</td>
+              </tr><tr>
+                <th scope="row" class="text-center">292</th>
+                <td>
+                  <a href="/teams/406">1c3Gh3tt0</a>
+                                  </td>
+                <td>301</td>
+              </tr><tr>
+                <th scope="row" class="text-center">293</th>
+                <td>
+                  <a href="/teams/157">Chicken GauGau</a>
+                                  </td>
+                <td>301</td>
+              </tr><tr>
+                <th scope="row" class="text-center">294</th>
+                <td>
+                  <a href="/teams/217">Hack Smarter</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">295</th>
+                <td>
+                  <a href="/teams/258">JUST</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">296</th>
+                <td>
+                  <a href="/teams/85">0M3G4_SQU4D</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">297</th>
+                <td>
+                  <a href="/teams/988">0x4B1D</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">298</th>
+                <td>
+                  <a href="/teams/419">gimme_flags</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">299</th>
+                <td>
+                  <a href="/teams/914">KiN3t1cs_111TH</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">300</th>
+                <td>
+                  <a href="/teams/650">0x325</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">301</th>
+                <td>
+                  <a href="/teams/836">heheboy</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">302</th>
+                <td>
+                  <a href="/teams/1105">IBEEE</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">303</th>
+                <td>
+                  <a href="/teams/977">Demonreach</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">304</th>
+                <td>
+                  <a href="/teams/1029">COMP4SS</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">305</th>
+                <td>
+                  <a href="/teams/592">Wired Ghost</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">306</th>
+                <td>
+                  <a href="/teams/1236">MFGI</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">307</th>
+                <td>
+                  <a href="/teams/1282">Vim Appreciation Society</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">308</th>
+                <td>
+                  <a href="/teams/969">code9hacker</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">309</th>
+                <td>
+                  <a href="/teams/255">watchdogs</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">310</th>
+                <td>
+                  <a href="/teams/700">thrumbos</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">311</th>
+                <td>
+                  <a href="/teams/214">PwnTeras</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">312</th>
+                <td>
+                  <a href="/teams/734">CoffeeBreak</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">313</th>
+                <td>
+                  <a href="/teams/62">Uni</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">314</th>
+                <td>
+                  <a href="/teams/566">Huntik</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">315</th>
+                <td>
+                  <a href="/teams/1397">LOF</a>
+                                  </td>
+                <td>300</td>
+              </tr><tr>
+                <th scope="row" class="text-center">316</th>
+                <td>
+                  <a href="/teams/389">Catnip-Security</a>
+                                  </td>
+                <td>294</td>
+              </tr><tr>
+                <th scope="row" class="text-center">317</th>
+                <td>
+                  <a href="/teams/1089">ne0n</a>
+                                  </td>
+                <td>286</td>
+              </tr><tr>
+                <th scope="row" class="text-center">318</th>
+                <td>
+                  <a href="/teams/1141">polarbits</a>
+                                  </td>
+                <td>286</td>
+              </tr><tr>
+                <th scope="row" class="text-center">319</th>
+                <td>
+                  <a href="/teams/128">16j</a>
+                                  </td>
+                <td>286</td>
+              </tr><tr>
+                <th scope="row" class="text-center">320</th>
+                <td>
+                  <a href="/teams/1331">hello0</a>
+                                  </td>
+                <td>286</td>
+              </tr><tr>
+                <th scope="row" class="text-center">321</th>
+                <td>
+                  <a href="/teams/1179">late_arrival</a>
+                                  </td>
+                <td>286</td>
+              </tr><tr>
+                <th scope="row" class="text-center">322</th>
+                <td>
+                  <a href="/teams/759">sigoura_oxi_osorin</a>
+                                  </td>
+                <td>275</td>
+              </tr><tr>
+                <th scope="row" class="text-center">323</th>
+                <td>
+                  <a href="/teams/990">CY8ERS</a>
+                                  </td>
+                <td>275</td>
+              </tr><tr>
+                <th scope="row" class="text-center">324</th>
+                <td>
+                  <a href="/teams/391">se1en</a>
+                                  </td>
+                <td>275</td>
+              </tr><tr>
+                <th scope="row" class="text-center">325</th>
+                <td>
+                  <a href="/teams/530">L1x</a>
+                                  </td>
+                <td>275</td>
+              </tr><tr>
+                <th scope="row" class="text-center">326</th>
+                <td>
+                  <a href="/teams/774">OnlyFeet</a>
+                                  </td>
+                <td>262</td>
+              </tr><tr>
+                <th scope="row" class="text-center">327</th>
+                <td>
+                  <a href="/teams/132">noobzi</a>
+                                  </td>
+                <td>251</td>
+              </tr><tr>
+                <th scope="row" class="text-center">328</th>
+                <td>
+                  <a href="/teams/1112">Obraznicii</a>
+                                  </td>
+                <td>251</td>
+              </tr><tr>
+                <th scope="row" class="text-center">329</th>
+                <td>
+                  <a href="/teams/98">The Purple Kagers</a>
+                                  </td>
+                <td>251</td>
+              </tr><tr>
+                <th scope="row" class="text-center">330</th>
+                <td>
+                  <a href="/teams/1356">Pierces</a>
+                                  </td>
+                <td>251</td>
+              </tr><tr>
+                <th scope="row" class="text-center">331</th>
+                <td>
+                  <a href="/teams/39">nonbinary</a>
+                                  </td>
+                <td>251</td>
+              </tr><tr>
+                <th scope="row" class="text-center">332</th>
+                <td>
+                  <a href="/teams/1603">ZeroD4yZ</a>
+                                  </td>
+                <td>251</td>
+              </tr><tr>
+                <th scope="row" class="text-center">333</th>
+                <td>
+                  <a href="/teams/137">CyberDragons</a>
+                                  </td>
+                <td>251</td>
+              </tr><tr>
+                <th scope="row" class="text-center">334</th>
+                <td>
+                  <a href="/teams/501">CoffeeClub</a>
+                                  </td>
+                <td>251</td>
+              </tr><tr>
+                <th scope="row" class="text-center">335</th>
+                <td>
+                  <a href="/teams/823">butagorira</a>
+                                  </td>
+                <td>251</td>
+              </tr><tr>
+                <th scope="row" class="text-center">336</th>
+                <td>
+                  <a href="/teams/111">Cyber_  Defense</a>
+                                  </td>
+                <td>251</td>
+              </tr><tr>
+                <th scope="row" class="text-center">337</th>
+                <td>
+                  <a href="/teams/588">Krak3net</a>
+                                  </td>
+                <td>251</td>
+              </tr><tr>
+                <th scope="row" class="text-center">338</th>
+                <td>
+                  <a href="/teams/49">3iphers</a>
+                                  </td>
+                <td>251</td>
+              </tr><tr>
+                <th scope="row" class="text-center">339</th>
+                <td>
+                  <a href="/teams/939">A$AP</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">340</th>
+                <td>
+                  <a href="/teams/755">hot_flags_in_your_area</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">341</th>
+                <td>
+                  <a href="/teams/150">1337_Y4PP3R5</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">342</th>
+                <td>
+                  <a href="/teams/620">PwnProphecy</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">343</th>
+                <td>
+                  <a href="/teams/1044">NoobsOnly</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">344</th>
+                <td>
+                  <a href="/teams/112">CryptoCrew</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">345</th>
+                <td>
+                  <a href="/teams/978">0xf1sh</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">346</th>
+                <td>
+                  <a href="/teams/51">asdfasdf12341234</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">347</th>
+                <td>
+                  <a href="/teams/80">data-bandit</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">348</th>
+                <td>
+                  <a href="/teams/931">missing_frog</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">349</th>
+                <td>
+                  <a href="/teams/1006">DJS ISACA</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">350</th>
+                <td>
+                  <a href="/teams/474">VN_MSEC</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">351</th>
+                <td>
+                  <a href="/teams/337">OSS</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">352</th>
+                <td>
+                  <a href="/teams/64">cyberTest004</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">353</th>
+                <td>
+                  <a href="/teams/63">CyberSpectre</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">354</th>
+                <td>
+                  <a href="/teams/703">return 1</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">355</th>
+                <td>
+                  <a href="/teams/500">Kamelåså</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">356</th>
+                <td>
+                  <a href="/teams/926">CYBER_KITTIEZ</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">357</th>
+                <td>
+                  <a href="/teams/902">P1X3LM0N</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">358</th>
+                <td>
+                  <a href="/teams/458">Panic at the kernel</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">359</th>
+                <td>
+                  <a href="/teams/24">catriver</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">360</th>
+                <td>
+                  <a href="/teams/1463">L</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">361</th>
+                <td>
+                  <a href="/teams/863">FPUSEC</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">362</th>
+                <td>
+                  <a href="/teams/104">w!nuX404</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">363</th>
+                <td>
+                  <a href="/teams/278">BadgerSec</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">364</th>
+                <td>
+                  <a href="/teams/1509">Del0n1x</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">365</th>
+                <td>
+                  <a href="/teams/151">chicken1111</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">366</th>
+                <td>
+                  <a href="/teams/1365">!UMU</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">367</th>
+                <td>
+                  <a href="/teams/915">GT Hackermen</a>
+                                  </td>
+                <td>250</td>
+              </tr><tr>
+                <th scope="row" class="text-center">368</th>
+                <td>
+                  <a href="/teams/270">Ph4nt0m Tr0up3</a>
+                                  </td>
+                <td>244</td>
+              </tr><tr>
+                <th scope="row" class="text-center">369</th>
+                <td>
+                  <a href="/teams/750">duck02</a>
+                                  </td>
+                <td>225</td>
+              </tr><tr>
+                <th scope="row" class="text-center">370</th>
+                <td>
+                  <a href="/teams/222">H4x0r_Hunters</a>
+                                  </td>
+                <td>201</td>
+              </tr><tr>
+                <th scope="row" class="text-center">371</th>
+                <td>
+                  <a href="/teams/87">NullSec</a>
+                                  </td>
+                <td>201</td>
+              </tr><tr>
+                <th scope="row" class="text-center">372</th>
+                <td>
+                  <a href="/teams/274">Los Pistoleros Del Eclipse</a>
+                                  </td>
+                <td>201</td>
+              </tr><tr>
+                <th scope="row" class="text-center">373</th>
+                <td>
+                  <a href="/teams/564">Wall Breakers</a>
+                                  </td>
+                <td>201</td>
+              </tr><tr>
+                <th scope="row" class="text-center">374</th>
+                <td>
+                  <a href="/teams/142">9tun</a>
+                                  </td>
+                <td>201</td>
+              </tr><tr>
+                <th scope="row" class="text-center">375</th>
+                <td>
+                  <a href="/teams/490">sysfailure</a>
+                                  </td>
+                <td>201</td>
+              </tr><tr>
+                <th scope="row" class="text-center">376</th>
+                <td>
+                  <a href="/teams/34">SWFS</a>
+                                  </td>
+                <td>201</td>
+              </tr><tr>
+                <th scope="row" class="text-center">377</th>
+                <td>
+                  <a href="/teams/15">PerfectHumans</a>
+                                  </td>
+                <td>201</td>
+              </tr><tr>
+                <th scope="row" class="text-center">378</th>
+                <td>
+                  <a href="/teams/442">WolfHack</a>
+                                  </td>
+                <td>201</td>
+              </tr><tr>
+                <th scope="row" class="text-center">379</th>
+                <td>
+                  <a href="/teams/159">Hacktivators</a>
+                                  </td>
+                <td>201</td>
+              </tr><tr>
+                <th scope="row" class="text-center">380</th>
+                <td>
+                  <a href="/teams/78">TechAttack</a>
+                                  </td>
+                <td>201</td>
+              </tr><tr>
+                <th scope="row" class="text-center">381</th>
+                <td>
+                  <a href="/teams/410">crazy</a>
+                                  </td>
+                <td>201</td>
+              </tr><tr>
+                <th scope="row" class="text-center">382</th>
+                <td>
+                  <a href="/teams/371">yonko</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">383</th>
+                <td>
+                  <a href="/teams/411">CRACKED_SOCIETY</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">384</th>
+                <td>
+                  <a href="/teams/854">BlacKnights</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">385</th>
+                <td>
+                  <a href="/teams/457">F47</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">386</th>
+                <td>
+                  <a href="/teams/184">(gawk)²</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">387</th>
+                <td>
+                  <a href="/teams/351">W3_4R3_W1NN3R5</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">388</th>
+                <td>
+                  <a href="/teams/653">midnightbliss</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">389</th>
+                <td>
+                  <a href="/teams/180">Awesome</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">390</th>
+                <td>
+                  <a href="/teams/1186">The Bare Minimum</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">391</th>
+                <td>
+                  <a href="/teams/1185">The Best Team</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">392</th>
+                <td>
+                  <a href="/teams/20">Cheen Tapak Dum Dum</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">393</th>
+                <td>
+                  <a href="/teams/435">espy</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">394</th>
+                <td>
+                  <a href="/teams/1175">NONAME</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">395</th>
+                <td>
+                  <a href="/teams/478">0xrot</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">396</th>
+                <td>
+                  <a href="/teams/963">Martial_Law_Enforcer</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">397</th>
+                <td>
+                  <a href="/teams/773">ORANGE ROCK</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">398</th>
+                <td>
+                  <a href="/teams/698">BackMoon</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">399</th>
+                <td>
+                  <a href="/teams/646">White$Lotus</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">400</th>
+                <td>
+                  <a href="/teams/1298">Jack Sparrow</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">401</th>
+                <td>
+                  <a href="/teams/974">MLUC tr0jans</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">402</th>
+                <td>
+                  <a href="/teams/468">StickyFinger</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">403</th>
+                <td>
+                  <a href="/teams/28">Cyberians</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">404</th>
+                <td>
+                  <a href="/teams/885">SpaceX404</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">405</th>
+                <td>
+                  <a href="/teams/1363">물물</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">406</th>
+                <td>
+                  <a href="/teams/86">Grish@Squad</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">407</th>
+                <td>
+                  <a href="/teams/1347">günlük yaşam kulübü</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">408</th>
+                <td>
+                  <a href="/teams/418">Dawg4j</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">409</th>
+                <td>
+                  <a href="/teams/606">bdhxgrp</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">410</th>
+                <td>
+                  <a href="/teams/1328">nonone</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">411</th>
+                <td>
+                  <a href="/teams/1146">xupa curintia</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">412</th>
+                <td>
+                  <a href="/teams/1256">Hack</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">413</th>
+                <td>
+                  <a href="/teams/359">Cr0wdstr1ke_1nt3rns</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">414</th>
+                <td>
+                  <a href="/teams/1151">guaddu</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">415</th>
+                <td>
+                  <a href="/teams/1403">J_B</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">416</th>
+                <td>
+                  <a href="/teams/1501">ging</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">417</th>
+                <td>
+                  <a href="/teams/1504">mrhove</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">418</th>
+                <td>
+                  <a href="/teams/1322">Chief</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">419</th>
+                <td>
+                  <a href="/teams/1200">Enigmaaaaa</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">420</th>
+                <td>
+                  <a href="/teams/1196">joejoe</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">421</th>
+                <td>
+                  <a href="/teams/1580">🤡🤡🤡🤡</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">422</th>
+                <td>
+                  <a href="/teams/1492">PseudoSudoToo</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">423</th>
+                <td>
+                  <a href="/teams/304">sayonara</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">424</th>
+                <td>
+                  <a href="/teams/577">Synergy N3xus</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">425</th>
+                <td>
+                  <a href="/teams/1455">bl4ck0u7</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">426</th>
+                <td>
+                  <a href="/teams/920">M@5C07</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">427</th>
+                <td>
+                  <a href="/teams/1637">H7Tex</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">428</th>
+                <td>
+                  <a href="/teams/1051">Cr1pt0_M4n14c</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">429</th>
+                <td>
+                  <a href="/teams/334">Mumer</a>
+                                  </td>
+                <td>200</td>
+              </tr><tr>
+                <th scope="row" class="text-center">430</th>
+                <td>
+                  <a href="/teams/826">Dream Back to AIS3 CLUB</a>
+                                  </td>
+                <td>151</td>
+              </tr><tr>
+                <th scope="row" class="text-center">431</th>
+                <td>
+                  <a href="/teams/627">p1r4735 0f w38</a>
+                                  </td>
+                <td>151</td>
+              </tr><tr>
+                <th scope="row" class="text-center">432</th>
+                <td>
+                  <a href="/teams/713">SECJUT</a>
+                                  </td>
+                <td>151</td>
+              </tr><tr>
+                <th scope="row" class="text-center">433</th>
+                <td>
+                  <a href="/teams/385">r4c00ns</a>
+                                  </td>
+                <td>151</td>
+              </tr><tr>
+                <th scope="row" class="text-center">434</th>
+                <td>
+                  <a href="/teams/118">Spectrum</a>
+                                  </td>
+                <td>151</td>
+              </tr><tr>
+                <th scope="row" class="text-center">435</th>
+                <td>
+                  <a href="/teams/433">PrivateUser</a>
+                                  </td>
+                <td>151</td>
+              </tr><tr>
+                <th scope="row" class="text-center">436</th>
+                <td>
+                  <a href="/teams/369">pr0d1gy_s0l0</a>
+                                  </td>
+                <td>151</td>
+              </tr><tr>
+                <th scope="row" class="text-center">437</th>
+                <td>
+                  <a href="/teams/52">Freaky Phreakers</a>
+                                  </td>
+                <td>151</td>
+              </tr><tr>
+                <th scope="row" class="text-center">438</th>
+                <td>
+                  <a href="/teams/1212">Sleeping &amp; Weepin</a>
+                                  </td>
+                <td>151</td>
+              </tr><tr>
+                <th scope="row" class="text-center">439</th>
+                <td>
+                  <a href="/teams/994">Vinci</a>
+                                  </td>
+                <td>151</td>
+              </tr><tr>
+                <th scope="row" class="text-center">440</th>
+                <td>
+                  <a href="/teams/870">?????????????????</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">441</th>
+                <td>
+                  <a href="/teams/665">cyberboy</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">442</th>
+                <td>
+                  <a href="/teams/746">FirewallFoxes</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">443</th>
+                <td>
+                  <a href="/teams/1035">NYUSEC</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">444</th>
+                <td>
+                  <a href="/teams/886">HUA_Group</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">445</th>
+                <td>
+                  <a href="/teams/1039">sp00k</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">446</th>
+                <td>
+                  <a href="/teams/628">Kira</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">447</th>
+                <td>
+                  <a href="/teams/904">badpwners.onion</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">448</th>
+                <td>
+                  <a href="/teams/568">ex3x</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">449</th>
+                <td>
+                  <a href="/teams/224">€yber€lan</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">450</th>
+                <td>
+                  <a href="/teams/69">VxPx</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">451</th>
+                <td>
+                  <a href="/teams/958">waterm3l0n</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">452</th>
+                <td>
+                  <a href="/teams/503">K4mN1</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">453</th>
+                <td>
+                  <a href="/teams/1086">qroqos</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">454</th>
+                <td>
+                  <a href="/teams/610">BITSkrieg</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">455</th>
+                <td>
+                  <a href="/teams/949">Cão de Queijo</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">456</th>
+                <td>
+                  <a href="/teams/980">drg56</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">457</th>
+                <td>
+                  <a href="/teams/801">ShieldOf_Cyber</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">458</th>
+                <td>
+                  <a href="/teams/657">BlahLand</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">459</th>
+                <td>
+                  <a href="/teams/676">Yoooooo(-_-)</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">460</th>
+                <td>
+                  <a href="/teams/409">TCTN</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">461</th>
+                <td>
+                  <a href="/teams/944">tf</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">462</th>
+                <td>
+                  <a href="/teams/677">The Neon Temple</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">463</th>
+                <td>
+                  <a href="/teams/1056">CoconutPhishers</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">464</th>
+                <td>
+                  <a href="/teams/539">n0pie</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">465</th>
+                <td>
+                  <a href="/teams/497">One Man Army</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">466</th>
+                <td>
+                  <a href="/teams/1077">etcetera</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">467</th>
+                <td>
+                  <a href="/teams/242">check1n</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">468</th>
+                <td>
+                  <a href="/teams/420">DNO</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">469</th>
+                <td>
+                  <a href="/teams/802">Conficker</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">470</th>
+                <td>
+                  <a href="/teams/491">agnyatha</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">471</th>
+                <td>
+                  <a href="/teams/307">Morning</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">472</th>
+                <td>
+                  <a href="/teams/1303">lopmade</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">473</th>
+                <td>
+                  <a href="/teams/414">cyber___</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">474</th>
+                <td>
+                  <a href="/teams/1339">testttttttt</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">475</th>
+                <td>
+                  <a href="/teams/1073">rational</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">476</th>
+                <td>
+                  <a href="/teams/624">Init-zer0</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">477</th>
+                <td>
+                  <a href="/teams/1084">Thr3at_Act0r</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">478</th>
+                <td>
+                  <a href="/teams/336">notion-pidorasi</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">479</th>
+                <td>
+                  <a href="/teams/853">Scr3ws4ndB0lt5</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">480</th>
+                <td>
+                  <a href="/teams/603">sh0ck</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">481</th>
+                <td>
+                  <a href="/teams/1009">NetworkNomads</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">482</th>
+                <td>
+                  <a href="/teams/1076">DarkNet</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">483</th>
+                <td>
+                  <a href="/teams/827">banana</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">484</th>
+                <td>
+                  <a href="/teams/26">Cipherghosts</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">485</th>
+                <td>
+                  <a href="/teams/800">AnonymousTeam</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">486</th>
+                <td>
+                  <a href="/teams/1361">duan</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">487</th>
+                <td>
+                  <a href="/teams/604">DongLao`xuiqua';khonggiai~dccau^nao`</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">488</th>
+                <td>
+                  <a href="/teams/769">nosleepco</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">489</th>
+                <td>
+                  <a href="/teams/730">HAX101</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">490</th>
+                <td>
+                  <a href="/teams/1442">PixelPioneers25</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">491</th>
+                <td>
+                  <a href="/teams/1539">petriQore</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">492</th>
+                <td>
+                  <a href="/teams/1446">Porg Pwn Platoon</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">493</th>
+                <td>
+                  <a href="/teams/1557">TwoSteaks</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">494</th>
+                <td>
+                  <a href="/teams/821">GroovyStars</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">495</th>
+                <td>
+                  <a href="/teams/1228">Ahihi</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">496</th>
+                <td>
+                  <a href="/teams/1366">HcccL</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">497</th>
+                <td>
+                  <a href="/teams/1490">Mary, Queen of Scots</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">498</th>
+                <td>
+                  <a href="/teams/254">n00b_779082</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">499</th>
+                <td>
+                  <a href="/teams/1402">login2net@qq.com</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">500</th>
+                <td>
+                  <a href="/teams/1193">Hash Cracking Slasher</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">501</th>
+                <td>
+                  <a href="/teams/572">The KingsGuard</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">502</th>
+                <td>
+                  <a href="/teams/167">Four letters</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">503</th>
+                <td>
+                  <a href="/teams/1552">seed</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">504</th>
+                <td>
+                  <a href="/teams/31">sesac1</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">505</th>
+                <td>
+                  <a href="/teams/1642">NOnameOPerators</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">506</th>
+                <td>
+                  <a href="/teams/515">Steven Seagull</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">507</th>
+                <td>
+                  <a href="/teams/417">nightwolf</a>
+                                  </td>
+                <td>150</td>
+              </tr><tr>
+                <th scope="row" class="text-center">508</th>
+                <td>
+                  <a href="/teams/1161">academy</a>
+                                  </td>
+                <td>144</td>
+              </tr><tr>
+                <th scope="row" class="text-center">509</th>
+                <td>
+                  <a href="/teams/1596">Triada</a>
+                                  </td>
+                <td>101</td>
+              </tr><tr>
+                <th scope="row" class="text-center">510</th>
+                <td>
+                  <a href="/teams/338">ghost2.O</a>
+                                  </td>
+                <td>101</td>
+              </tr><tr>
+                <th scope="row" class="text-center">511</th>
+                <td>
+                  <a href="/teams/637">ctfrrteam</a>
+                                  </td>
+                <td>101</td>
+              </tr><tr>
+                <th scope="row" class="text-center">512</th>
+                <td>
+                  <a href="/teams/331">oms9</a>
+                                  </td>
+                <td>101</td>
+              </tr><tr>
+                <th scope="row" class="text-center">513</th>
+                <td>
+                  <a href="/teams/482">automat0n</a>
+                                  </td>
+                <td>101</td>
+              </tr><tr>
+                <th scope="row" class="text-center">514</th>
+                <td>
+                  <a href="/teams/1405">6986 Penetration ave.</a>
+                                  </td>
+                <td>101</td>
+              </tr><tr>
+                <th scope="row" class="text-center">515</th>
+                <td>
+                  <a href="/teams/1467">Highway54</a>
+                                  </td>
+                <td>101</td>
+              </tr><tr>
+                <th scope="row" class="text-center">516</th>
+                <td>
+                  <a href="/teams/1641">Ir0nw0lf3000</a>
+                                  </td>
+                <td>101</td>
+              </tr><tr>
+                <th scope="row" class="text-center">517</th>
+                <td>
+                  <a href="/teams/1525">harora191</a>
+                                  </td>
+                <td>101</td>
+              </tr><tr>
+                <th scope="row" class="text-center">518</th>
+                <td>
+                  <a href="/teams/622">C0bble</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">519</th>
+                <td>
+                  <a href="/teams/163">r4n0m_t3am</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">520</th>
+                <td>
+                  <a href="/teams/992">damngrey</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">521</th>
+                <td>
+                  <a href="/teams/612">EHT</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">522</th>
+                <td>
+                  <a href="/teams/259">Shadow23</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">523</th>
+                <td>
+                  <a href="/teams/290">Bureau of Control</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">524</th>
+                <td>
+                  <a href="/teams/12">ByteMyAscii</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">525</th>
+                <td>
+                  <a href="/teams/910">zblxst</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">526</th>
+                <td>
+                  <a href="/teams/36">DiAi</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">527</th>
+                <td>
+                  <a href="/teams/232">Bracken</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">528</th>
+                <td>
+                  <a href="/teams/865">dawitngoliath</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">529</th>
+                <td>
+                  <a href="/teams/1033">Z3U5</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">530</th>
+                <td>
+                  <a href="/teams/858">Cobra_Tech</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">531</th>
+                <td>
+                  <a href="/teams/1028">nop</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">532</th>
+                <td>
+                  <a href="/teams/997">seysey</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">533</th>
+                <td>
+                  <a href="/teams/1023">cookie</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">534</th>
+                <td>
+                  <a href="/teams/303">Kawa Society</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">535</th>
+                <td>
+                  <a href="/teams/54">solo wae mang, masih belajar juga</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">536</th>
+                <td>
+                  <a href="/teams/837">spyd3rs</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">537</th>
+                <td>
+                  <a href="/teams/1059">Team Noob</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">538</th>
+                <td>
+                  <a href="/teams/816">Root_User</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">539</th>
+                <td>
+                  <a href="/teams/705">404_tmp</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">540</th>
+                <td>
+                  <a href="/teams/93">ProdigyAttacks</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">541</th>
+                <td>
+                  <a href="/teams/72">Ultramarines</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">542</th>
+                <td>
+                  <a href="/teams/899">dog4shell</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">543</th>
+                <td>
+                  <a href="/teams/778">0bs1d14nz</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">544</th>
+                <td>
+                  <a href="/teams/283">Katipwneros</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">545</th>
+                <td>
+                  <a href="/teams/439">highdraglowspeed</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">546</th>
+                <td>
+                  <a href="/teams/699">shei</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">547</th>
+                <td>
+                  <a href="/teams/768">sticktrades</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">548</th>
+                <td>
+                  <a href="/teams/311">dArkEyE00</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">549</th>
+                <td>
+                  <a href="/teams/787">shreddedcheese</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">550</th>
+                <td>
+                  <a href="/teams/117">metadors</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">551</th>
+                <td>
+                  <a href="/teams/964">momonosuke</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">552</th>
+                <td>
+                  <a href="/teams/1100">The Symphony</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">553</th>
+                <td>
+                  <a href="/teams/50">Ahimsa-</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">554</th>
+                <td>
+                  <a href="/teams/829">Intel Chips</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">555</th>
+                <td>
+                  <a href="/teams/795">CouscousNinja</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">556</th>
+                <td>
+                  <a href="/teams/579">LeeLaid</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">557</th>
+                <td>
+                  <a href="/teams/1137">NJ1T_H1ghland3r5</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">558</th>
+                <td>
+                  <a href="/teams/644">K0rea101</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">559</th>
+                <td>
+                  <a href="/teams/1145">Da Melody</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">560</th>
+                <td>
+                  <a href="/teams/857">souf6x</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">561</th>
+                <td>
+                  <a href="/teams/1015">PicchiNotBright</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">562</th>
+                <td>
+                  <a href="/teams/772">N0thing</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">563</th>
+                <td>
+                  <a href="/teams/797">HTCPCP://</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">564</th>
+                <td>
+                  <a href="/teams/1168">xTheMo</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">565</th>
+                <td>
+                  <a href="/teams/825">mrkdqp</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">566</th>
+                <td>
+                  <a href="/teams/1160">Networms</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">567</th>
+                <td>
+                  <a href="/teams/1197">NHS</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">568</th>
+                <td>
+                  <a href="/teams/758">C0de_Zero</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">569</th>
+                <td>
+                  <a href="/teams/818">paooaq</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">570</th>
+                <td>
+                  <a href="/teams/998">play</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">571</th>
+                <td>
+                  <a href="/teams/1226">LaoHacker</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">572</th>
+                <td>
+                  <a href="/teams/368">LOOKING FOR YTOUSF</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">573</th>
+                <td>
+                  <a href="/teams/1222">SoloTeam</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">574</th>
+                <td>
+                  <a href="/teams/1237">Sn0rl4x</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">575</th>
+                <td>
+                  <a href="/teams/1214">Labyrinthine Codebreakers</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">576</th>
+                <td>
+                  <a href="/teams/531">VTIDC</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">577</th>
+                <td>
+                  <a href="/teams/1249">pix3l</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">578</th>
+                <td>
+                  <a href="/teams/1258">/tmp/red</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">579</th>
+                <td>
+                  <a href="/teams/489">Turing Nessus</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">580</th>
+                <td>
+                  <a href="/teams/402">ghostRider</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">581</th>
+                <td>
+                  <a href="/teams/1272">3nity trollers</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">582</th>
+                <td>
+                  <a href="/teams/22">CTF_$4!Y4N</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">583</th>
+                <td>
+                  <a href="/teams/1290">CRUx BPHC</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">584</th>
+                <td>
+                  <a href="/teams/790">NorfolkGeeks</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">585</th>
+                <td>
+                  <a href="/teams/349">TeamIvy</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">586</th>
+                <td>
+                  <a href="/teams/320">Who ate my pizza</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">587</th>
+                <td>
+                  <a href="/teams/65">bro code</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">588</th>
+                <td>
+                  <a href="/teams/1218">Goon Platoon</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">589</th>
+                <td>
+                  <a href="/teams/1286">Saen0zu</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">590</th>
+                <td>
+                  <a href="/teams/30">HU4$UI</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">591</th>
+                <td>
+                  <a href="/teams/521">Tartary</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">592</th>
+                <td>
+                  <a href="/teams/570">MidnightGl1tch</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">593</th>
+                <td>
+                  <a href="/teams/75">TheWiz</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">594</th>
+                <td>
+                  <a href="/teams/1334">Glitch</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">595</th>
+                <td>
+                  <a href="/teams/1343">Hacktoria</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">596</th>
+                <td>
+                  <a href="/teams/279">MatavieHash</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">597</th>
+                <td>
+                  <a href="/teams/742">hackme</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">598</th>
+                <td>
+                  <a href="/teams/749">Warspite</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">599</th>
+                <td>
+                  <a href="/teams/1230">t4mil</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">600</th>
+                <td>
+                  <a href="/teams/835">SpanishBoggarts</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">601</th>
+                <td>
+                  <a href="/teams/547">Rhackgondins</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">602</th>
+                <td>
+                  <a href="/teams/776">5h3N0y</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">603</th>
+                <td>
+                  <a href="/teams/721">console_commandos</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">604</th>
+                <td>
+                  <a href="/teams/1431">Ace Team</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">605</th>
+                <td>
+                  <a href="/teams/1427">c0d3_r3d</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">606</th>
+                <td>
+                  <a href="/teams/1434">JapaneseFrenchToast</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">607</th>
+                <td>
+                  <a href="/teams/760">kamen rider</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">608</th>
+                <td>
+                  <a href="/teams/1439">JaSoOsS</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">609</th>
+                <td>
+                  <a href="/teams/265">duck-the-name</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">610</th>
+                <td>
+                  <a href="/teams/520">SiBears</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">611</th>
+                <td>
+                  <a href="/teams/1500">S0l0_weezy</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">612</th>
+                <td>
+                  <a href="/teams/1480">Sleep@llday</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">613</th>
+                <td>
+                  <a href="/teams/1423">Hot Chillies</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">614</th>
+                <td>
+                  <a href="/teams/1466">DurkaOnline2</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">615</th>
+                <td>
+                  <a href="/teams/762">n00b/s</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">616</th>
+                <td>
+                  <a href="/teams/1191">gr33nh0rn</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">617</th>
+                <td>
+                  <a href="/teams/1508">HvAng10</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">618</th>
+                <td>
+                  <a href="/teams/947">Taint</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">619</th>
+                <td>
+                  <a href="/teams/1513">Talons Up</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">620</th>
+                <td>
+                  <a href="/teams/211">CRYPTO</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">621</th>
+                <td>
+                  <a href="/teams/1522">me_and_my_team</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">622</th>
+                <td>
+                  <a href="/teams/1541">HawkSec</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">623</th>
+                <td>
+                  <a href="/teams/1543">Order Of Phoniex</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">624</th>
+                <td>
+                  <a href="/teams/1395">jahm</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">625</th>
+                <td>
+                  <a href="/teams/1350">ultraviolet</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">626</th>
+                <td>
+                  <a href="/teams/1199">RootMiner</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">627</th>
+                <td>
+                  <a href="/teams/473">Bashful Cats</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">628</th>
+                <td>
+                  <a href="/teams/1587">solo!!</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">629</th>
+                <td>
+                  <a href="/teams/1438">Tulgaaa</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">630</th>
+                <td>
+                  <a href="/teams/845">軟弱</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">631</th>
+                <td>
+                  <a href="/teams/1593">N2L</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">632</th>
+                <td>
+                  <a href="/teams/554">__uniball__</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">633</th>
+                <td>
+                  <a href="/teams/1602">nish_</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">634</th>
+                <td>
+                  <a href="/teams/850">sif</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">635</th>
+                <td>
+                  <a href="/teams/438">FASTNUCES_KHI</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">636</th>
+                <td>
+                  <a href="/teams/559">hackratic</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">637</th>
+                <td>
+                  <a href="/teams/602">Newbie</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">638</th>
+                <td>
+                  <a href="/teams/1675">k0kos</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">639</th>
+                <td>
+                  <a href="/teams/1138">Solo</a>
+                                  </td>
+                <td>100</td>
+              </tr><tr>
+                <th scope="row" class="text-center">640</th>
+                <td>
+                  <a href="/teams/716">1uckd06</a>
+                                  </td>
+                <td>94</td>
+              </tr><tr>
+                <th scope="row" class="text-center">641</th>
+                <td>
+                  <a href="/teams/1393">ssongk</a>
+                                  </td>
+                <td>94</td>
+              </tr><tr>
+                <th scope="row" class="text-center">642</th>
+                <td>
+                  <a href="/teams/692">N00b_B0t3</a>
+                                  </td>
+                <td>51</td>
+              </tr><tr>
+                <th scope="row" class="text-center">643</th>
+                <td>
+                  <a href="/teams/1616">thejuggler35</a>
+                                  </td>
+                <td>51</td>
+              </tr><tr>
+                <th scope="row" class="text-center">644</th>
+                <td>
+                  <a href="/teams/1524">Bug Hunterzz</a>
+                                  </td>
+                <td>51</td>
+              </tr><tr>
+                <th scope="row" class="text-center">645</th>
+                <td>
+                  <a href="/teams/228">TheFreddies</a>
+                                  </td>
+                <td>51</td>
+              </tr><tr>
+                <th scope="row" class="text-center">646</th>
+                <td>
+                  <a href="/teams/475">R3curs10n</a>
+                                  </td>
+                <td>51</td>
+              </tr><tr>
+                <th scope="row" class="text-center">647</th>
+                <td>
+                  <a href="/teams/459">Le Petit Bleu Café</a>
+                                  </td>
+                <td>51</td>
+              </tr><tr>
+                <th scope="row" class="text-center">648</th>
+                <td>
+                  <a href="/teams/675">wohooo</a>
+                                  </td>
+                <td>51</td>
+              </tr><tr>
+                <th scope="row" class="text-center">649</th>
+                <td>
+                  <a href="/teams/1692">gogogo</a>
+                                  </td>
+                <td>51</td>
+              </tr><tr>
+                <th scope="row" class="text-center">650</th>
+                <td>
+                  <a href="/teams/817">PWNDEMONIUM.</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">651</th>
+                <td>
+                  <a href="/teams/403">farmer</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">652</th>
+                <td>
+                  <a href="/teams/951">Sbonzi</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">653</th>
+                <td>
+                  <a href="/teams/952">HedgeHoggus</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">654</th>
+                <td>
+                  <a href="/teams/917">HING</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">655</th>
+                <td>
+                  <a href="/teams/946">Skibll team</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">656</th>
+                <td>
+                  <a href="/teams/280">Ghost0fSparta</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">657</th>
+                <td>
+                  <a href="/teams/976">asfsfasf</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">658</th>
+                <td>
+                  <a href="/teams/109">Gh0d1n9</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">659</th>
+                <td>
+                  <a href="/teams/569">PESU-ISFCR</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">660</th>
+                <td>
+                  <a href="/teams/327">Darth-Vader</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">661</th>
+                <td>
+                  <a href="/teams/551">Deadpool &amp; Wolverine</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">662</th>
+                <td>
+                  <a href="/teams/809">realTUSK</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">663</th>
+                <td>
+                  <a href="/teams/114">EasyIce</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">664</th>
+                <td>
+                  <a href="/teams/648">Cyber Badgers CTF</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">665</th>
+                <td>
+                  <a href="/teams/841">Tyre_er_baccha</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">666</th>
+                <td>
+                  <a href="/teams/761">NEX</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">667</th>
+                <td>
+                  <a href="/teams/996">mult1phas3d</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">668</th>
+                <td>
+                  <a href="/teams/950">snickerdoodle</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">669</th>
+                <td>
+                  <a href="/teams/41">TonyBro</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">670</th>
+                <td>
+                  <a href="/teams/484">c00c00</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">671</th>
+                <td>
+                  <a href="/teams/532">The Enigmas</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">672</th>
+                <td>
+                  <a href="/teams/989">SuperBeetleGamer</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">673</th>
+                <td>
+                  <a href="/teams/999">steves</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">674</th>
+                <td>
+                  <a href="/teams/511">magic glass</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">675</th>
+                <td>
+                  <a href="/teams/1016">daldaguri</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">676</th>
+                <td>
+                  <a href="/teams/872">CTF Crusaders</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">677</th>
+                <td>
+                  <a href="/teams/896">overhaul</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">678</th>
+                <td>
+                  <a href="/teams/779">1nv1</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">679</th>
+                <td>
+                  <a href="/teams/1025">spaceblanket</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">680</th>
+                <td>
+                  <a href="/teams/615">NoobHacker</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">681</th>
+                <td>
+                  <a href="/teams/1055">gfgfgf</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">682</th>
+                <td>
+                  <a href="/teams/190">Team Rocket</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">683</th>
+                <td>
+                  <a href="/teams/984">Harokopio University</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">684</th>
+                <td>
+                  <a href="/teams/792">4FUN</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">685</th>
+                <td>
+                  <a href="/teams/1011">xdarksyderx</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">686</th>
+                <td>
+                  <a href="/teams/1053">DipanNama</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">687</th>
+                <td>
+                  <a href="/teams/645">Placeholder001</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">688</th>
+                <td>
+                  <a href="/teams/1080">ancd</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">689</th>
+                <td>
+                  <a href="/teams/1087">PracticeTeam</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">690</th>
+                <td>
+                  <a href="/teams/16">K_41H</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">691</th>
+                <td>
+                  <a href="/teams/441">nOOb</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">692</th>
+                <td>
+                  <a href="/teams/1110">Hitsu</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">693</th>
+                <td>
+                  <a href="/teams/669">banana boys</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">694</th>
+                <td>
+                  <a href="/teams/514">el_ganador</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">695</th>
+                <td>
+                  <a href="/teams/188">ekekek</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">696</th>
+                <td>
+                  <a href="/teams/617">PhilosophersOfChaos</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">697</th>
+                <td>
+                  <a href="/teams/960">Gon_Tanaka</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">698</th>
+                <td>
+                  <a href="/teams/555">Blodbamsen</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">699</th>
+                <td>
+                  <a href="/teams/712">JonahCirillo</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">700</th>
+                <td>
+                  <a href="/teams/488">Hacking Help</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">701</th>
+                <td>
+                  <a href="/teams/1071">Benef</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">702</th>
+                <td>
+                  <a href="/teams/1148">lopaty</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">703</th>
+                <td>
+                  <a href="/teams/1147">amtrsdisk@gmail.com</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">704</th>
+                <td>
+                  <a href="/teams/506">el</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">705</th>
+                <td>
+                  <a href="/teams/1065">h00d135</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">706</th>
+                <td>
+                  <a href="/teams/1120">Mu</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">707</th>
+                <td>
+                  <a href="/teams/172">newJoiner</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">708</th>
+                <td>
+                  <a href="/teams/1139">suspect</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">709</th>
+                <td>
+                  <a href="/teams/33">hehewelp</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">710</th>
+                <td>
+                  <a href="/teams/1126">Heimer Killers</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">711</th>
+                <td>
+                  <a href="/teams/1155">ME ON THE TOP!</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">712</th>
+                <td>
+                  <a href="/teams/796">g3tt1ng_th3r3</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">713</th>
+                <td>
+                  <a href="/teams/1085">testt</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">714</th>
+                <td>
+                  <a href="/teams/581">Alo123</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">715</th>
+                <td>
+                  <a href="/teams/99">猪猪队</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">716</th>
+                <td>
+                  <a href="/teams/453">CesBot</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">717</th>
+                <td>
+                  <a href="/teams/1205">ter1</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">718</th>
+                <td>
+                  <a href="/teams/1150">CHEDICHI</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">719</th>
+                <td>
+                  <a href="/teams/397">ggerigej</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">720</th>
+                <td>
+                  <a href="/teams/814">Corgi</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">721</th>
+                <td>
+                  <a href="/teams/477">GHOST_OF_THE_UCHIA</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">722</th>
+                <td>
+                  <a href="/teams/875">ยามตึก</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">723</th>
+                <td>
+                  <a href="/teams/416">Kasukabe Defense Force</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">724</th>
+                <td>
+                  <a href="/teams/1224">ELFDump</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">725</th>
+                <td>
+                  <a href="/teams/1211">bytebros</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">726</th>
+                <td>
+                  <a href="/teams/932">H4CK_077</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">727</th>
+                <td>
+                  <a href="/teams/1220">Crypton Commanders</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">728</th>
+                <td>
+                  <a href="/teams/1216">5</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">729</th>
+                <td>
+                  <a href="/teams/291">acube</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">730</th>
+                <td>
+                  <a href="/teams/1143">crop</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">731</th>
+                <td>
+                  <a href="/teams/6">h1h4ck3r</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">732</th>
+                <td>
+                  <a href="/teams/486">el m4t4ten</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">733</th>
+                <td>
+                  <a href="/teams/44">Olgoj Chorchoj</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">734</th>
+                <td>
+                  <a href="/teams/149">my little trojan</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">735</th>
+                <td>
+                  <a href="/teams/715">11111111</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">736</th>
+                <td>
+                  <a href="/teams/725">beginner</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">737</th>
+                <td>
+                  <a href="/teams/1283">Abin</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">738</th>
+                <td>
+                  <a href="/teams/1291">Pouls Friends</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">739</th>
+                <td>
+                  <a href="/teams/1240">Hopper's Roppers</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">740</th>
+                <td>
+                  <a href="/teams/1245">????</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">741</th>
+                <td>
+                  <a href="/teams/842">gosthunter</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">742</th>
+                <td>
+                  <a href="/teams/1294">nico's kittens</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">743</th>
+                <td>
+                  <a href="/teams/1005">cr3ackers!</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">744</th>
+                <td>
+                  <a href="/teams/1268">Cyberc</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">745</th>
+                <td>
+                  <a href="/teams/578">IWANTTOWIN</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">746</th>
+                <td>
+                  <a href="/teams/221">Blahbka</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">747</th>
+                <td>
+                  <a href="/teams/1337">sadweeb</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">748</th>
+                <td>
+                  <a href="/teams/1359">NOOBDAA</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">749</th>
+                <td>
+                  <a href="/teams/1079">lingling</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">750</th>
+                <td>
+                  <a href="/teams/576">ㅎㅇ</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">751</th>
+                <td>
+                  <a href="/teams/546">Vulñ  Hunter's</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">752</th>
+                <td>
+                  <a href="/teams/119">0xS0_n0v1c3</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">753</th>
+                <td>
+                  <a href="/teams/1327">Frost</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">754</th>
+                <td>
+                  <a href="/teams/1340">Nourt</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">755</th>
+                <td>
+                  <a href="/teams/1338">DegenB</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">756</th>
+                <td>
+                  <a href="/teams/1310">hexaway</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">757</th>
+                <td>
+                  <a href="/teams/1374">sixsixbananas</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">758</th>
+                <td>
+                  <a href="/teams/1357">MacdonianPWNers</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">759</th>
+                <td>
+                  <a href="/teams/1387">Just For The Questions</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">760</th>
+                <td>
+                  <a href="/teams/1392">Glow in the Dark Gang</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">761</th>
+                <td>
+                  <a href="/teams/643">5p4c3 C415</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">762</th>
+                <td>
+                  <a href="/teams/1376">AMF.</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">763</th>
+                <td>
+                  <a href="/teams/1404">STUDIO GHIBLI</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">764</th>
+                <td>
+                  <a href="/teams/1001">boevaya_klassika_omsk</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">765</th>
+                <td>
+                  <a href="/teams/252">ByTheW4y</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">766</th>
+                <td>
+                  <a href="/teams/1341">/dev/full</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">767</th>
+                <td>
+                  <a href="/teams/1274">ShadowGarden</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">768</th>
+                <td>
+                  <a href="/teams/1125">cat1</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">769</th>
+                <td>
+                  <a href="/teams/636">yWg4Yc</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">770</th>
+                <td>
+                  <a href="/teams/1319">tofpie</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">771</th>
+                <td>
+                  <a href="/teams/735">IRPwn</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">772</th>
+                <td>
+                  <a href="/teams/1169">nassunt</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">773</th>
+                <td>
+                  <a href="/teams/1437">R1v3rg0d</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">774</th>
+                <td>
+                  <a href="/teams/1440">rommops</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">775</th>
+                <td>
+                  <a href="/teams/1436">k0shka</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">776</th>
+                <td>
+                  <a href="/teams/1443">5h3nron's  disciples</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">777</th>
+                <td>
+                  <a href="/teams/461">infinite_void</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">778</th>
+                <td>
+                  <a href="/teams/1424">d4wn</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">779</th>
+                <td>
+                  <a href="/teams/1447">pcmsCTF</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">780</th>
+                <td>
+                  <a href="/teams/1453">Artistein</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">781</th>
+                <td>
+                  <a href="/teams/1409">p4w16</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">782</th>
+                <td>
+                  <a href="/teams/1470">xxaa</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">783</th>
+                <td>
+                  <a href="/teams/557">4upa4upcer</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">784</th>
+                <td>
+                  <a href="/teams/234">hackuaz</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">785</th>
+                <td>
+                  <a href="/teams/633">rockandroll</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">786</th>
+                <td>
+                  <a href="/teams/1369">Wiiwiwwiwiw</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">787</th>
+                <td>
+                  <a href="/teams/1499">BertSec</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">788</th>
+                <td>
+                  <a href="/teams/1375">twiss</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">789</th>
+                <td>
+                  <a href="/teams/1475">menitz</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">790</th>
+                <td>
+                  <a href="/teams/1497">kgrzk2024</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">791</th>
+                <td>
+                  <a href="/teams/1494">123123123123</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">792</th>
+                <td>
+                  <a href="/teams/784">fl4m3</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">793</th>
+                <td>
+                  <a href="/teams/844">white_web</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">794</th>
+                <td>
+                  <a href="/teams/1382">scalio</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">795</th>
+                <td>
+                  <a href="/teams/1523">mfunza</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">796</th>
+                <td>
+                  <a href="/teams/1107">mvhs infosec</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">797</th>
+                <td>
+                  <a href="/teams/23">v13vv</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">798</th>
+                <td>
+                  <a href="/teams/1505">Cooper</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">799</th>
+                <td>
+                  <a href="/teams/1546">evo</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">800</th>
+                <td>
+                  <a href="/teams/1537">uuubku</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">801</th>
+                <td>
+                  <a href="/teams/838">Claquettes Chaussettes</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">802</th>
+                <td>
+                  <a href="/teams/1556">Lazy_5341</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">803</th>
+                <td>
+                  <a href="/teams/1555">ODNS</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">804</th>
+                <td>
+                  <a href="/teams/1564">N071337</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">805</th>
+                <td>
+                  <a href="/teams/1573">Hage3z</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">806</th>
+                <td>
+                  <a href="/teams/1273">revNoob</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">807</th>
+                <td>
+                  <a href="/teams/1588">Cyber-Sleuth</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">808</th>
+                <td>
+                  <a href="/teams/1295">Psy</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">809</th>
+                <td>
+                  <a href="/teams/1597">Justme</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">810</th>
+                <td>
+                  <a href="/teams/1604">SBF</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">811</th>
+                <td>
+                  <a href="/teams/706">검은고양이</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">812</th>
+                <td>
+                  <a href="/teams/656">USTC-NEBULA</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">813</th>
+                <td>
+                  <a href="/teams/14">fzhshzh</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">814</th>
+                <td>
+                  <a href="/teams/493">GlitchGroovers</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">815</th>
+                <td>
+                  <a href="/teams/454">Fl055</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">816</th>
+                <td>
+                  <a href="/teams/1495">Hazy</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">817</th>
+                <td>
+                  <a href="/teams/195">P3rf3ctr00t_ke</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">818</th>
+                <td>
+                  <a href="/teams/1578">./potato</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">819</th>
+                <td>
+                  <a href="/teams/867">gr33n_p4wn</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">820</th>
+                <td>
+                  <a href="/teams/1422">p3cd0wn</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">821</th>
+                <td>
+                  <a href="/teams/1645">Itakaka</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">822</th>
+                <td>
+                  <a href="/teams/1656">come to look look</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">823</th>
+                <td>
+                  <a href="/teams/1665">Hakurei Reimu</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">824</th>
+                <td>
+                  <a href="/teams/1661">HistoricMoment</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">825</th>
+                <td>
+                  <a href="/teams/1646">12345zzz</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">826</th>
+                <td>
+                  <a href="/teams/1670">CRMA Cyber Club</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">827</th>
+                <td>
+                  <a href="/teams/263">rootbit</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">828</th>
+                <td>
+                  <a href="/teams/171">potato.gif</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">829</th>
+                <td>
+                  <a href="/teams/525">hengker</a>
+                                  </td>
+                <td>50</td>
+              </tr><tr>
+                <th scope="row" class="text-center">830</th>
+                <td>
+                  <a href="/teams/239">Null Bytes</a>
+                                  </td>
+                <td>1</td>
               </tr>
-            </template>
-          </tbody>
         </table>
       </div>
 
-      <div class="col-md-12" x-show="! standings.length">
-        <h3 class="text-center text-muted">Scoreboard is empty</h3>
-      </div>
     </div>
   </div>
 
